@@ -9,12 +9,251 @@
 */
 /* ||@ HIDE SIDE NAV + CONTENT 100% ———————————————————————————————————————————————————————————————————————————— */
 /* || Blendet die Seitennavigation aus und der Content wird auf 100% breite erhöht ————————————————————————————— */
+#page-12468 .section-inner-aside, #page-12470 .section-inner-aside, #page-16053 .section-inner-aside, #page-12471 .section-inner-aside, #page-12469 .section-inner-aside, #page-15972 .section-inner-aside, #page-16121 .section-inner-aside, #page-12679 .section-inner-aside, #page-12680 .section-inner-aside, #page-15973 .section-inner-aside,
+#page-12683 .section-inner-aside, #page-12686 .section-inner-aside, #page-16056 .section-inner-aside, #page-12687 .section-inner-aside, #page-13601 .section-inner-aside, #page-12474 .section-inner-aside, #page-12478 .section-inner-aside, #page-12476 .section-inner-aside, #page-12477 .section-inner-aside, #page-12762 .section-inner-aside,
+#page-15853 .section-inner-aside, #page-15854 .section-inner-aside, #page-16998 .section-inner-aside, #page-15856 .section-inner-aside {
+  display: none;
+}
+
+#page-12468 .section-inner-content, #page-12470 .section-inner-content, #page-16053 .section-inner-content, #page-12471 .section-inner-content, #page-12469 .section-inner-content, #page-15972 .section-inner-content, #page-16121 .section-inner-content, #page-12679 .section-inner-content, #page-12680 .section-inner-content, #page-15973 .section-inner-content,
+#page-12683 .section-inner-content, #page-12686 .section-inner-content, #page-16056 .section-inner-content, #page-12687 .section-inner-content, #page-13601 .section-inner-content, #page-12474 .section-inner-content, #page-12478 .section-inner-content, #page-12476 .section-inner-content, #page-12477 .section-inner-content, #page-12762 .section-inner-content,
+#page-15853 .section-inner-content, #page-15854 .section-inner-content, #page-16998 .section-inner-content, #page-15856 .section-inner-content {
+  width: 100%;
+}
+
 /* ||@ COLOR STYLES ———————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Globale Farben definieren ———————————————————————————————————————————————————————————————————————————————— */
 /* ||@ TYPOGRAPHY ——————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Globable Schriftstyle definieren —————————————————————————————————————————————————————————————————————————— */
+#page-12468 h1, #page-12470 h1, #page-16053 h1, #page-12471 h1, #page-12469 h1, #page-15972 h1, #page-16121 h1, #page-12679 h1, #page-12680 h1, #page-15973 h1,
+#page-12683 h1, #page-12686 h1, #page-16056 h1, #page-12687 h1, #page-13601 h1, #page-12474 h1, #page-12478 h1, #page-12476 h1, #page-12477 h1, #page-12762 h1,
+#page-15853 h1, #page-15854 h1, #page-16998 h1, #page-15856 h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  color: #1D1D1D;
+}
+
+#page-12468 h2, #page-12470 h2, #page-16053 h2, #page-12471 h2, #page-12469 h2, #page-15972 h2, #page-16121 h2, #page-12679 h2, #page-12680 h2, #page-15973 h2,
+#page-12683 h2, #page-12686 h2, #page-16056 h2, #page-12687 h2, #page-13601 h2, #page-12474 h2, #page-12478 h2, #page-12476 h2, #page-12477 h2, #page-12762 h2,
+#page-15853 h2, #page-15854 h2, #page-16998 h2, #page-15856 h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+  color: #1D1D1D;
+}
+
+#page-12468 h3, #page-12470 h3, #page-16053 h3, #page-12471 h3, #page-12469 h3, #page-15972 h3, #page-16121 h3, #page-12679 h3, #page-12680 h3, #page-15973 h3,
+#page-12683 h3, #page-12686 h3, #page-16056 h3, #page-12687 h3, #page-13601 h3, #page-12474 h3, #page-12478 h3, #page-12476 h3, #page-12477 h3, #page-12762 h3,
+#page-15853 h3, #page-15854 h3, #page-16998 h3, #page-15856 h3 {
+  font-size: 2.0rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: #1D1D1D;
+}
+
+#page-12468 h4, #page-12470 h4, #page-16053 h4, #page-12471 h4, #page-12469 h4, #page-15972 h4, #page-16121 h4, #page-12679 h4, #page-12680 h4, #page-15973 h4,
+#page-12683 h4, #page-12686 h4, #page-16056 h4, #page-12687 h4, #page-13601 h4, #page-12474 h4, #page-12478 h4, #page-12476 h4, #page-12477 h4, #page-12762 h4,
+#page-15853 h4, #page-15854 h4, #page-16998 h4, #page-15856 h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  color: #1D1D1D;
+}
+
+#page-12468 h5, #page-12470 h5, #page-16053 h5, #page-12471 h5, #page-12469 h5, #page-15972 h5, #page-16121 h5, #page-12679 h5, #page-12680 h5, #page-15973 h5,
+#page-12683 h5, #page-12686 h5, #page-16056 h5, #page-12687 h5, #page-13601 h5, #page-12474 h5, #page-12478 h5, #page-12476 h5, #page-12477 h5, #page-12762 h5,
+#page-15853 h5, #page-15854 h5, #page-16998 h5, #page-15856 h5 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: #1D1D1D;
+}
+
+#page-12468 h6, #page-12470 h6, #page-16053 h6, #page-12471 h6, #page-12469 h6, #page-15972 h6, #page-16121 h6, #page-12679 h6, #page-12680 h6, #page-15973 h6,
+#page-12683 h6, #page-12686 h6, #page-16056 h6, #page-12687 h6, #page-13601 h6, #page-12474 h6, #page-12478 h6, #page-12476 h6, #page-12477 h6, #page-12762 h6,
+#page-15853 h6, #page-15854 h6, #page-16998 h6, #page-15856 h6 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.1rem;
+  color: #1D1D1D;
+}
+
+#page-12468 p, #page-12470 p, #page-16053 p, #page-12471 p, #page-12469 p, #page-15972 p, #page-16121 p, #page-12679 p, #page-12680 p, #page-15973 p,
+#page-12683 p, #page-12686 p, #page-16056 p, #page-12687 p, #page-13601 p, #page-12474 p, #page-12478 p, #page-12476 p, #page-12477 p, #page-12762 p,
+#page-15853 p, #page-15854 p, #page-16998 p, #page-15856 p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #1D1D1D;
+}
+
+#page-12468 a, #page-12470 a, #page-16053 a, #page-12471 a, #page-12469 a, #page-15972 a, #page-16121 a, #page-12679 a, #page-12680 a, #page-15973 a,
+#page-12683 a, #page-12686 a, #page-16056 a, #page-12687 a, #page-13601 a, #page-12474 a, #page-12478 a, #page-12476 a, #page-12477 a, #page-12762 a,
+#page-15853 a, #page-15854 a, #page-16998 a, #page-15856 a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: #009775;
+}
+
 /* ||@ SPACING —————————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Globable Abstände definieren —————————————————————————————————————————————————————————————————————————————— */
+#page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973,
+#page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
+#page-15853, #page-15854, #page-16998, #page-15856 {
+  /* || padding-top */
+  /* || padding-bottom */
+  /* || margin-top */
+  /* || margin-bottom */
+}
+
+#page-12468 .pt-5, #page-12470 .pt-5, #page-16053 .pt-5, #page-12471 .pt-5, #page-12469 .pt-5, #page-15972 .pt-5, #page-16121 .pt-5, #page-12679 .pt-5, #page-12680 .pt-5, #page-15973 .pt-5,
+#page-12683 .pt-5, #page-12686 .pt-5, #page-16056 .pt-5, #page-12687 .pt-5, #page-13601 .pt-5, #page-12474 .pt-5, #page-12478 .pt-5, #page-12476 .pt-5, #page-12477 .pt-5, #page-12762 .pt-5,
+#page-15853 .pt-5, #page-15854 .pt-5, #page-16998 .pt-5, #page-15856 .pt-5 {
+  padding-top: 0.5rem;
+}
+
+#page-12468 .pt-10, #page-12470 .pt-10, #page-16053 .pt-10, #page-12471 .pt-10, #page-12469 .pt-10, #page-15972 .pt-10, #page-16121 .pt-10, #page-12679 .pt-10, #page-12680 .pt-10, #page-15973 .pt-10,
+#page-12683 .pt-10, #page-12686 .pt-10, #page-16056 .pt-10, #page-12687 .pt-10, #page-13601 .pt-10, #page-12474 .pt-10, #page-12478 .pt-10, #page-12476 .pt-10, #page-12477 .pt-10, #page-12762 .pt-10,
+#page-15853 .pt-10, #page-15854 .pt-10, #page-16998 .pt-10, #page-15856 .pt-10 {
+  padding-top: 1rem;
+}
+
+#page-12468 .pt-15, #page-12470 .pt-15, #page-16053 .pt-15, #page-12471 .pt-15, #page-12469 .pt-15, #page-15972 .pt-15, #page-16121 .pt-15, #page-12679 .pt-15, #page-12680 .pt-15, #page-15973 .pt-15,
+#page-12683 .pt-15, #page-12686 .pt-15, #page-16056 .pt-15, #page-12687 .pt-15, #page-13601 .pt-15, #page-12474 .pt-15, #page-12478 .pt-15, #page-12476 .pt-15, #page-12477 .pt-15, #page-12762 .pt-15,
+#page-15853 .pt-15, #page-15854 .pt-15, #page-16998 .pt-15, #page-15856 .pt-15 {
+  padding-top: 1.5rem;
+}
+
+#page-12468 .pt-30, #page-12470 .pt-30, #page-16053 .pt-30, #page-12471 .pt-30, #page-12469 .pt-30, #page-15972 .pt-30, #page-16121 .pt-30, #page-12679 .pt-30, #page-12680 .pt-30, #page-15973 .pt-30,
+#page-12683 .pt-30, #page-12686 .pt-30, #page-16056 .pt-30, #page-12687 .pt-30, #page-13601 .pt-30, #page-12474 .pt-30, #page-12478 .pt-30, #page-12476 .pt-30, #page-12477 .pt-30, #page-12762 .pt-30,
+#page-15853 .pt-30, #page-15854 .pt-30, #page-16998 .pt-30, #page-15856 .pt-30 {
+  padding-top: 3rem;
+}
+
+#page-12468 .pt-50, #page-12470 .pt-50, #page-16053 .pt-50, #page-12471 .pt-50, #page-12469 .pt-50, #page-15972 .pt-50, #page-16121 .pt-50, #page-12679 .pt-50, #page-12680 .pt-50, #page-15973 .pt-50,
+#page-12683 .pt-50, #page-12686 .pt-50, #page-16056 .pt-50, #page-12687 .pt-50, #page-13601 .pt-50, #page-12474 .pt-50, #page-12478 .pt-50, #page-12476 .pt-50, #page-12477 .pt-50, #page-12762 .pt-50,
+#page-15853 .pt-50, #page-15854 .pt-50, #page-16998 .pt-50, #page-15856 .pt-50 {
+  padding-top: 5rem;
+}
+
+#page-12468 .pt-100, #page-12470 .pt-100, #page-16053 .pt-100, #page-12471 .pt-100, #page-12469 .pt-100, #page-15972 .pt-100, #page-16121 .pt-100, #page-12679 .pt-100, #page-12680 .pt-100, #page-15973 .pt-100,
+#page-12683 .pt-100, #page-12686 .pt-100, #page-16056 .pt-100, #page-12687 .pt-100, #page-13601 .pt-100, #page-12474 .pt-100, #page-12478 .pt-100, #page-12476 .pt-100, #page-12477 .pt-100, #page-12762 .pt-100,
+#page-15853 .pt-100, #page-15854 .pt-100, #page-16998 .pt-100, #page-15856 .pt-100 {
+  padding-top: 10rem;
+}
+
+#page-12468 .pb-5, #page-12470 .pb-5, #page-16053 .pb-5, #page-12471 .pb-5, #page-12469 .pb-5, #page-15972 .pb-5, #page-16121 .pb-5, #page-12679 .pb-5, #page-12680 .pb-5, #page-15973 .pb-5,
+#page-12683 .pb-5, #page-12686 .pb-5, #page-16056 .pb-5, #page-12687 .pb-5, #page-13601 .pb-5, #page-12474 .pb-5, #page-12478 .pb-5, #page-12476 .pb-5, #page-12477 .pb-5, #page-12762 .pb-5,
+#page-15853 .pb-5, #page-15854 .pb-5, #page-16998 .pb-5, #page-15856 .pb-5 {
+  padding-bottom: 0.5rem;
+}
+
+#page-12468 .pb-10, #page-12470 .pb-10, #page-16053 .pb-10, #page-12471 .pb-10, #page-12469 .pb-10, #page-15972 .pb-10, #page-16121 .pb-10, #page-12679 .pb-10, #page-12680 .pb-10, #page-15973 .pb-10,
+#page-12683 .pb-10, #page-12686 .pb-10, #page-16056 .pb-10, #page-12687 .pb-10, #page-13601 .pb-10, #page-12474 .pb-10, #page-12478 .pb-10, #page-12476 .pb-10, #page-12477 .pb-10, #page-12762 .pb-10,
+#page-15853 .pb-10, #page-15854 .pb-10, #page-16998 .pb-10, #page-15856 .pb-10 {
+  padding-bottom: 1rem;
+}
+
+#page-12468 .pb-15, #page-12470 .pb-15, #page-16053 .pb-15, #page-12471 .pb-15, #page-12469 .pb-15, #page-15972 .pb-15, #page-16121 .pb-15, #page-12679 .pb-15, #page-12680 .pb-15, #page-15973 .pb-15,
+#page-12683 .pb-15, #page-12686 .pb-15, #page-16056 .pb-15, #page-12687 .pb-15, #page-13601 .pb-15, #page-12474 .pb-15, #page-12478 .pb-15, #page-12476 .pb-15, #page-12477 .pb-15, #page-12762 .pb-15,
+#page-15853 .pb-15, #page-15854 .pb-15, #page-16998 .pb-15, #page-15856 .pb-15 {
+  padding-bottom: 1.5rem;
+}
+
+#page-12468 .pb-30, #page-12470 .pb-30, #page-16053 .pb-30, #page-12471 .pb-30, #page-12469 .pb-30, #page-15972 .pb-30, #page-16121 .pb-30, #page-12679 .pb-30, #page-12680 .pb-30, #page-15973 .pb-30,
+#page-12683 .pb-30, #page-12686 .pb-30, #page-16056 .pb-30, #page-12687 .pb-30, #page-13601 .pb-30, #page-12474 .pb-30, #page-12478 .pb-30, #page-12476 .pb-30, #page-12477 .pb-30, #page-12762 .pb-30,
+#page-15853 .pb-30, #page-15854 .pb-30, #page-16998 .pb-30, #page-15856 .pb-30 {
+  padding-bottom: 3rem;
+}
+
+#page-12468 .pb-50, #page-12470 .pb-50, #page-16053 .pb-50, #page-12471 .pb-50, #page-12469 .pb-50, #page-15972 .pb-50, #page-16121 .pb-50, #page-12679 .pb-50, #page-12680 .pb-50, #page-15973 .pb-50,
+#page-12683 .pb-50, #page-12686 .pb-50, #page-16056 .pb-50, #page-12687 .pb-50, #page-13601 .pb-50, #page-12474 .pb-50, #page-12478 .pb-50, #page-12476 .pb-50, #page-12477 .pb-50, #page-12762 .pb-50,
+#page-15853 .pb-50, #page-15854 .pb-50, #page-16998 .pb-50, #page-15856 .pb-50 {
+  padding-bottom: 5rem;
+}
+
+#page-12468 .pb-100, #page-12470 .pb-100, #page-16053 .pb-100, #page-12471 .pb-100, #page-12469 .pb-100, #page-15972 .pb-100, #page-16121 .pb-100, #page-12679 .pb-100, #page-12680 .pb-100, #page-15973 .pb-100,
+#page-12683 .pb-100, #page-12686 .pb-100, #page-16056 .pb-100, #page-12687 .pb-100, #page-13601 .pb-100, #page-12474 .pb-100, #page-12478 .pb-100, #page-12476 .pb-100, #page-12477 .pb-100, #page-12762 .pb-100,
+#page-15853 .pb-100, #page-15854 .pb-100, #page-16998 .pb-100, #page-15856 .pb-100 {
+  padding-bottom: 10rem;
+}
+
+#page-12468 .mt-5, #page-12470 .mt-5, #page-16053 .mt-5, #page-12471 .mt-5, #page-12469 .mt-5, #page-15972 .mt-5, #page-16121 .mt-5, #page-12679 .mt-5, #page-12680 .mt-5, #page-15973 .mt-5,
+#page-12683 .mt-5, #page-12686 .mt-5, #page-16056 .mt-5, #page-12687 .mt-5, #page-13601 .mt-5, #page-12474 .mt-5, #page-12478 .mt-5, #page-12476 .mt-5, #page-12477 .mt-5, #page-12762 .mt-5,
+#page-15853 .mt-5, #page-15854 .mt-5, #page-16998 .mt-5, #page-15856 .mt-5 {
+  margin-top: 0.5rem;
+}
+
+#page-12468 .mt-10, #page-12470 .mt-10, #page-16053 .mt-10, #page-12471 .mt-10, #page-12469 .mt-10, #page-15972 .mt-10, #page-16121 .mt-10, #page-12679 .mt-10, #page-12680 .mt-10, #page-15973 .mt-10,
+#page-12683 .mt-10, #page-12686 .mt-10, #page-16056 .mt-10, #page-12687 .mt-10, #page-13601 .mt-10, #page-12474 .mt-10, #page-12478 .mt-10, #page-12476 .mt-10, #page-12477 .mt-10, #page-12762 .mt-10,
+#page-15853 .mt-10, #page-15854 .mt-10, #page-16998 .mt-10, #page-15856 .mt-10 {
+  margin-top: 1rem;
+}
+
+#page-12468 .mt-15, #page-12470 .mt-15, #page-16053 .mt-15, #page-12471 .mt-15, #page-12469 .mt-15, #page-15972 .mt-15, #page-16121 .mt-15, #page-12679 .mt-15, #page-12680 .mt-15, #page-15973 .mt-15,
+#page-12683 .mt-15, #page-12686 .mt-15, #page-16056 .mt-15, #page-12687 .mt-15, #page-13601 .mt-15, #page-12474 .mt-15, #page-12478 .mt-15, #page-12476 .mt-15, #page-12477 .mt-15, #page-12762 .mt-15,
+#page-15853 .mt-15, #page-15854 .mt-15, #page-16998 .mt-15, #page-15856 .mt-15 {
+  margin-top: 1.5rem;
+}
+
+#page-12468 .mt-30, #page-12470 .mt-30, #page-16053 .mt-30, #page-12471 .mt-30, #page-12469 .mt-30, #page-15972 .mt-30, #page-16121 .mt-30, #page-12679 .mt-30, #page-12680 .mt-30, #page-15973 .mt-30,
+#page-12683 .mt-30, #page-12686 .mt-30, #page-16056 .mt-30, #page-12687 .mt-30, #page-13601 .mt-30, #page-12474 .mt-30, #page-12478 .mt-30, #page-12476 .mt-30, #page-12477 .mt-30, #page-12762 .mt-30,
+#page-15853 .mt-30, #page-15854 .mt-30, #page-16998 .mt-30, #page-15856 .mt-30 {
+  margin-top: 3rem;
+}
+
+#page-12468 .mt-50, #page-12470 .mt-50, #page-16053 .mt-50, #page-12471 .mt-50, #page-12469 .mt-50, #page-15972 .mt-50, #page-16121 .mt-50, #page-12679 .mt-50, #page-12680 .mt-50, #page-15973 .mt-50,
+#page-12683 .mt-50, #page-12686 .mt-50, #page-16056 .mt-50, #page-12687 .mt-50, #page-13601 .mt-50, #page-12474 .mt-50, #page-12478 .mt-50, #page-12476 .mt-50, #page-12477 .mt-50, #page-12762 .mt-50,
+#page-15853 .mt-50, #page-15854 .mt-50, #page-16998 .mt-50, #page-15856 .mt-50 {
+  margin-top: 5rem;
+}
+
+#page-12468 .mt-100, #page-12470 .mt-100, #page-16053 .mt-100, #page-12471 .mt-100, #page-12469 .mt-100, #page-15972 .mt-100, #page-16121 .mt-100, #page-12679 .mt-100, #page-12680 .mt-100, #page-15973 .mt-100,
+#page-12683 .mt-100, #page-12686 .mt-100, #page-16056 .mt-100, #page-12687 .mt-100, #page-13601 .mt-100, #page-12474 .mt-100, #page-12478 .mt-100, #page-12476 .mt-100, #page-12477 .mt-100, #page-12762 .mt-100,
+#page-15853 .mt-100, #page-15854 .mt-100, #page-16998 .mt-100, #page-15856 .mt-100 {
+  margin-top: 10rem;
+}
+
+#page-12468 .mb-5, #page-12470 .mb-5, #page-16053 .mb-5, #page-12471 .mb-5, #page-12469 .mb-5, #page-15972 .mb-5, #page-16121 .mb-5, #page-12679 .mb-5, #page-12680 .mb-5, #page-15973 .mb-5,
+#page-12683 .mb-5, #page-12686 .mb-5, #page-16056 .mb-5, #page-12687 .mb-5, #page-13601 .mb-5, #page-12474 .mb-5, #page-12478 .mb-5, #page-12476 .mb-5, #page-12477 .mb-5, #page-12762 .mb-5,
+#page-15853 .mb-5, #page-15854 .mb-5, #page-16998 .mb-5, #page-15856 .mb-5 {
+  margin-bottom: 0.5rem;
+}
+
+#page-12468 .mb-10, #page-12470 .mb-10, #page-16053 .mb-10, #page-12471 .mb-10, #page-12469 .mb-10, #page-15972 .mb-10, #page-16121 .mb-10, #page-12679 .mb-10, #page-12680 .mb-10, #page-15973 .mb-10,
+#page-12683 .mb-10, #page-12686 .mb-10, #page-16056 .mb-10, #page-12687 .mb-10, #page-13601 .mb-10, #page-12474 .mb-10, #page-12478 .mb-10, #page-12476 .mb-10, #page-12477 .mb-10, #page-12762 .mb-10,
+#page-15853 .mb-10, #page-15854 .mb-10, #page-16998 .mb-10, #page-15856 .mb-10 {
+  margin-bottom: 1rem;
+}
+
+#page-12468 .mb-15, #page-12470 .mb-15, #page-16053 .mb-15, #page-12471 .mb-15, #page-12469 .mb-15, #page-15972 .mb-15, #page-16121 .mb-15, #page-12679 .mb-15, #page-12680 .mb-15, #page-15973 .mb-15,
+#page-12683 .mb-15, #page-12686 .mb-15, #page-16056 .mb-15, #page-12687 .mb-15, #page-13601 .mb-15, #page-12474 .mb-15, #page-12478 .mb-15, #page-12476 .mb-15, #page-12477 .mb-15, #page-12762 .mb-15,
+#page-15853 .mb-15, #page-15854 .mb-15, #page-16998 .mb-15, #page-15856 .mb-15 {
+  margin-bottom: 1.5rem;
+}
+
+#page-12468 .mb-30, #page-12470 .mb-30, #page-16053 .mb-30, #page-12471 .mb-30, #page-12469 .mb-30, #page-15972 .mb-30, #page-16121 .mb-30, #page-12679 .mb-30, #page-12680 .mb-30, #page-15973 .mb-30,
+#page-12683 .mb-30, #page-12686 .mb-30, #page-16056 .mb-30, #page-12687 .mb-30, #page-13601 .mb-30, #page-12474 .mb-30, #page-12478 .mb-30, #page-12476 .mb-30, #page-12477 .mb-30, #page-12762 .mb-30,
+#page-15853 .mb-30, #page-15854 .mb-30, #page-16998 .mb-30, #page-15856 .mb-30 {
+  margin-bottom: 3rem;
+}
+
+#page-12468 .mb-50, #page-12470 .mb-50, #page-16053 .mb-50, #page-12471 .mb-50, #page-12469 .mb-50, #page-15972 .mb-50, #page-16121 .mb-50, #page-12679 .mb-50, #page-12680 .mb-50, #page-15973 .mb-50,
+#page-12683 .mb-50, #page-12686 .mb-50, #page-16056 .mb-50, #page-12687 .mb-50, #page-13601 .mb-50, #page-12474 .mb-50, #page-12478 .mb-50, #page-12476 .mb-50, #page-12477 .mb-50, #page-12762 .mb-50,
+#page-15853 .mb-50, #page-15854 .mb-50, #page-16998 .mb-50, #page-15856 .mb-50 {
+  margin-bottom: 5rem;
+}
+
+#page-12468 .mb-100, #page-12470 .mb-100, #page-16053 .mb-100, #page-12471 .mb-100, #page-12469 .mb-100, #page-15972 .mb-100, #page-16121 .mb-100, #page-12679 .mb-100, #page-12680 .mb-100, #page-15973 .mb-100,
+#page-12683 .mb-100, #page-12686 .mb-100, #page-16056 .mb-100, #page-12687 .mb-100, #page-13601 .mb-100, #page-12474 .mb-100, #page-12478 .mb-100, #page-12476 .mb-100, #page-12477 .mb-100, #page-12762 .mb-100,
+#page-15853 .mb-100, #page-15854 .mb-100, #page-16998 .mb-100, #page-15856 .mb-100 {
+  margin-bottom: 10rem;
+}
+
 /* ||@ COMPONENTS ——————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Gloable Komponenten definieren ———————————————————————————————————————————————————————————————————————————— */
+/* ||@ VERKAUFSLADEN / Page-12468 ——————————————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 /*# sourceMappingURL=styles.css.map */

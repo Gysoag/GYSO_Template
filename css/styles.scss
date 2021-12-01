@@ -10,23 +10,184 @@
 
 /* ||@ HIDE SIDE NAV + CONTENT 100% ———————————————————————————————————————————————————————————————————————————— */
 /* || Blendet die Seitennavigation aus und der Content wird auf 100% breite erhöht ————————————————————————————— */
-
+#page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973, 
+#page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
+#page-15853, #page-15854, #page-16998, #page-15856 {
+    .section-inner-aside {
+        display:none;
+    }
+    .section-inner-content {
+        width: 100%;
+    }
+}
 
 
 /* ||@ COLOR STYLES ———————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Globale Farben definieren ———————————————————————————————————————————————————————————————————————————————— */
-
+$Main-green: #009775;       // Standard grün
+$Secondary-green: #00775C;
+$Alt-blue: #62A1D8;         // Neuheiten
+$Alt-pink: #D8628E;         // Aktionen
+$Very-light-gray: #F8F8F8;
+$Light-gray: #707070;
+$Mid-gray: #575757;
+$Dark-gray: #464646;
+$Main-black: #1D1D1D;       // Standard schwarz
 
 
 /* ||@ TYPOGRAPHY ——————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Globable Schriftstyle definieren —————————————————————————————————————————————————————————————————————————— */
+#page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973, 
+#page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
+#page-15853, #page-15854, #page-16998, #page-15856 {
+
+    h1 {
+        font-size: 3.2rem;
+        font-weight: 700; 
+        line-height: 3.2rem * 1.5;
+        color: $Main-black;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+        font-weight: 700;
+        line-height: 2.4rem * 1.5;
+        color: $Main-black;
+    }
+
+    h3 {
+        font-size: 2.0rem;
+        font-weight: 600;
+        line-height: 2.0rem * 1.5;
+        color: $Main-black;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 1.8rem * 1.5;
+        color: $Main-black;
+    }
+
+    h5 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.6rem * 1.5;
+        color: $Main-black;
+    }
+
+    h6 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        line-height: 1.4rem * 1.5;
+        color: $Main-black;
+    }
+
+    p {
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1.6rem * 1.5;
+        color: $Main-black;
+    }
+
+    a {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.6rem * 1.5;
+        color: $Main-green;
+    }
+}
 
 
 
 /* ||@ SPACING —————————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Globable Abstände definieren —————————————————————————————————————————————————————————————————————————————— */
-
+#page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973, 
+#page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
+#page-15853, #page-15854, #page-16998, #page-15856 {
+/* || padding-top */
+.pt-5 {
+    padding-top: 0.5rem;
+}
+.pt-10 {
+    padding-top: 1rem;
+}
+.pt-15 {
+    padding-top: 1.5rem;
+}
+.pt-30 {
+    padding-top: 3rem;
+}
+.pt-50 {
+    padding-top: 5rem;
+}
+.pt-100 {
+    padding-top: 10rem;
+}
+/* || padding-bottom */
+.pb-5 {
+    padding-bottom: 0.5rem;
+}
+.pb-10 {
+    padding-bottom: 1rem;
+}
+.pb-15 {
+    padding-bottom: 1.5rem;
+}
+.pb-30 {
+    padding-bottom: 3rem;
+}
+.pb-50 {
+    padding-bottom: 5rem;
+}
+.pb-100 {
+    padding-bottom: 10rem;
+}
+/* || margin-top */
+.mt-5 {
+    margin-top: 0.5rem;
+}
+.mt-10 {
+    margin-top: 1rem;
+}
+.mt-15 {
+    margin-top: 1.5rem;
+}
+.mt-30 {
+    margin-top: 3rem;
+}
+.mt-50 {
+    margin-top: 5rem;
+}
+.mt-100 {
+    margin-top: 10rem;
+}
+/* || margin-bottom */
+.mb-5 {
+    margin-bottom: 0.5rem;
+}
+.mb-10 {
+    margin-bottom: 1rem;
+}
+.mb-15 {
+    margin-bottom: 1.5rem;
+}
+.mb-30 {
+    margin-bottom: 3rem;
+}
+.mb-50 {
+    margin-bottom: 5rem;
+}
+.mb-100 {
+    margin-bottom: 10rem;
+}
+}
 
 
 /* ||@ COMPONENTS ——————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Gloable Komponenten definieren ———————————————————————————————————————————————————————————————————————————— */
+
+
+
+/* ||@ VERKAUFSLADEN / Page-12468 ——————————————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
