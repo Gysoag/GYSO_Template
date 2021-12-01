@@ -31,6 +31,7 @@
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 4.8rem;
+  margin-bottom: 0.5rem;
   color: #1D1D1D;
 }
 
@@ -73,9 +74,10 @@
 #page-12468 h6, #page-12470 h6, #page-16053 h6, #page-12471 h6, #page-12469 h6, #page-15972 h6, #page-16121 h6, #page-12679 h6, #page-12680 h6, #page-15973 h6,
 #page-12683 h6, #page-12686 h6, #page-16056 h6, #page-12687 h6, #page-13601 h6, #page-12474 h6, #page-12478 h6, #page-12476 h6, #page-12477 h6, #page-12762 h6,
 #page-15853 h6, #page-15854 h6, #page-16998 h6, #page-15856 h6 {
-  font-size: 1.4rem;
-  font-weight: 600;
-  line-height: 2.1rem;
+  font-size: 2.0rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
   color: #1D1D1D;
 }
 
@@ -256,4 +258,103 @@
 /* || Gloable Komponenten definieren ———————————————————————————————————————————————————————————————————————————— */
 /* ||@ VERKAUFSLADEN / Page-12468 ——————————————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-12468 {
+  /* Grid definieren */
+}
+
+#page-12468 .grid-container-shop {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 300px auto;
+}
+
+#page-12468 .grid-container-shop .item-1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+  background-image: url("../kundenupload/content-management/img/verkaufsladen/Laden.jpg");
+  z-index: 10;
+}
+
+#page-12468 .grid-container-shop .item-2 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  background-color: #FFF;
+  z-index: 10;
+  padding: 1.5rem;
+}
+
+#page-12468 .grid-container-shop .item-2 table tbody td {
+  padding: 1rem 1rem 1rem 0;
+}
+
+#page-12468 .grid-container-shop .item-2 table tbody tr {
+  border-bottom: 1px solid #F8F8F8;
+}
+
+@media only screen and (max-width: 1240px) {
+  #page-12468 .grid-container-shop {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 300px auto;
+  }
+  #page-12468 .grid-container-shop .item-1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1 / 3;
+    background-color: #F8F8F8;
+  }
+  #page-12468 .grid-container-shop .item-2 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2 / 3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+    background-color: #FFF;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  #page-12468 .grid-container-shop {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 300px auto;
+  }
+  #page-12468 .grid-container-shop .item-1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+    background-color: #F8F8F8;
+  }
+  #page-12468 .grid-container-shop .item-2 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / 3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+    background-color: #FFF;
+    padding: 1.5rem 0 0 0;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

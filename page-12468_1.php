@@ -5,18 +5,27 @@
 
 <!-- || START -->
 <!-- ||@ Content Verkaufsladen / HTML -->
-<div>
-        <h1>Verkaufsladen | Beratung & Abholung</h1>
-        <p>An unseren zwei Standorten <b>Kloten (ZH)</b> und <b>Crissier (VD)</b> begrüssen wir Sie gerne in unseren Shops.</p>
-        <p>
-            Mit unseren GYSO-Shops bieten wir Ihnen einen praktischen Weg zum raschen Einkauf mit kompetenter Beratung.
-            Die Bedienung durch unsere Fachleute erfolgt ohne Voranmeldung oder Wartezeiten.
-        </p>
-        <p> 
-            Wir führen Qualitätsprodukte in den Kompetenzbereichen Kleben, Dichten, Schützen, Schleifen, Lackieren und Finish
-            für das Bau- <a href="www.google.ch">und Automotivegewerbe</a>.
-        </p>
+<div class="grid-container-shop mt-30">
+    <div class="item-1"></div>
+    <div class="item-2">
+        <h3>Unsere Öffnungszeiten</h3>
+        <table class="openingHours-table">
+            <tr>
+            <td>Montag - Donnerstag</td>
+            <td>07.30-12.00 / 13.00-17.30</td>
+            </tr>
+            <tr>
+            <td>Freitag</td>
+            <td>07.30-12.00 / 13.00-17.00</td>
+            </tr>
+        </table>
     </div>
+</div>
+<h1 class="mt-30">Verkaufsladen / Beratung & Abholung</h1>
+
+
+
+
 
 
 
