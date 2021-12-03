@@ -25,11 +25,60 @@
 /* || Globale Farben definieren ———————————————————————————————————————————————————————————————————————————————— */
 /* ||@ TYPOGRAPHY ——————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Globable Schriftstyle definieren —————————————————————————————————————————————————————————————————————————— */
+#page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973,
+#page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
+#page-15853, #page-15854, #page-16998, #page-15856 {
+  /*
+    h3 {
+        font-size: 2.0rem;
+        font-weight: 600;
+        line-height: 2.0rem * 1.5;
+        color: $Main-black;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 1.8rem * 1.5;
+        color: $Main-black;
+    }
+
+    h5 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.6rem * 1.5;
+        color: $Main-black;
+    }
+
+    h6 {
+        font-size: 2.0rem;
+        font-weight: 300;
+        line-height: 2.0rem * 1.5;
+        margin-bottom: 1.5rem;
+        color: $Main-black;
+    }
+
+    p {
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1.6rem * 1.5;
+        color: $Main-black;
+    }
+
+    a {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.6rem * 1.5;
+        color: $Main-green;
+    }
+*/
+}
+
 #page-12468 h1, #page-12470 h1, #page-16053 h1, #page-12471 h1, #page-12469 h1, #page-15972 h1, #page-16121 h1, #page-12679 h1, #page-12680 h1, #page-15973 h1,
 #page-12683 h1, #page-12686 h1, #page-16056 h1, #page-12687 h1, #page-13601 h1, #page-12474 h1, #page-12478 h1, #page-12476 h1, #page-12477 h1, #page-12762 h1,
 #page-15853 h1, #page-15854 h1, #page-16998 h1, #page-15856 h1 {
   font-size: 3.2rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 4.8rem;
   margin-bottom: 0.5rem;
   color: #1D1D1D;
@@ -42,61 +91,6 @@
   font-weight: 700;
   line-height: 3.6rem;
   color: #1D1D1D;
-}
-
-#page-12468 h3, #page-12470 h3, #page-16053 h3, #page-12471 h3, #page-12469 h3, #page-15972 h3, #page-16121 h3, #page-12679 h3, #page-12680 h3, #page-15973 h3,
-#page-12683 h3, #page-12686 h3, #page-16056 h3, #page-12687 h3, #page-13601 h3, #page-12474 h3, #page-12478 h3, #page-12476 h3, #page-12477 h3, #page-12762 h3,
-#page-15853 h3, #page-15854 h3, #page-16998 h3, #page-15856 h3 {
-  font-size: 2.0rem;
-  font-weight: 600;
-  line-height: 3rem;
-  color: #1D1D1D;
-}
-
-#page-12468 h4, #page-12470 h4, #page-16053 h4, #page-12471 h4, #page-12469 h4, #page-15972 h4, #page-16121 h4, #page-12679 h4, #page-12680 h4, #page-15973 h4,
-#page-12683 h4, #page-12686 h4, #page-16056 h4, #page-12687 h4, #page-13601 h4, #page-12474 h4, #page-12478 h4, #page-12476 h4, #page-12477 h4, #page-12762 h4,
-#page-15853 h4, #page-15854 h4, #page-16998 h4, #page-15856 h4 {
-  font-size: 1.8rem;
-  font-weight: 600;
-  line-height: 2.7rem;
-  color: #1D1D1D;
-}
-
-#page-12468 h5, #page-12470 h5, #page-16053 h5, #page-12471 h5, #page-12469 h5, #page-15972 h5, #page-16121 h5, #page-12679 h5, #page-12680 h5, #page-15973 h5,
-#page-12683 h5, #page-12686 h5, #page-16056 h5, #page-12687 h5, #page-13601 h5, #page-12474 h5, #page-12478 h5, #page-12476 h5, #page-12477 h5, #page-12762 h5,
-#page-15853 h5, #page-15854 h5, #page-16998 h5, #page-15856 h5 {
-  font-size: 1.6rem;
-  font-weight: 600;
-  line-height: 2.4rem;
-  color: #1D1D1D;
-}
-
-#page-12468 h6, #page-12470 h6, #page-16053 h6, #page-12471 h6, #page-12469 h6, #page-15972 h6, #page-16121 h6, #page-12679 h6, #page-12680 h6, #page-15973 h6,
-#page-12683 h6, #page-12686 h6, #page-16056 h6, #page-12687 h6, #page-13601 h6, #page-12474 h6, #page-12478 h6, #page-12476 h6, #page-12477 h6, #page-12762 h6,
-#page-15853 h6, #page-15854 h6, #page-16998 h6, #page-15856 h6 {
-  font-size: 2.0rem;
-  font-weight: 300;
-  line-height: 3rem;
-  margin-bottom: 1.5rem;
-  color: #1D1D1D;
-}
-
-#page-12468 p, #page-12470 p, #page-16053 p, #page-12471 p, #page-12469 p, #page-15972 p, #page-16121 p, #page-12679 p, #page-12680 p, #page-15973 p,
-#page-12683 p, #page-12686 p, #page-16056 p, #page-12687 p, #page-13601 p, #page-12474 p, #page-12478 p, #page-12476 p, #page-12477 p, #page-12762 p,
-#page-15853 p, #page-15854 p, #page-16998 p, #page-15856 p {
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 2.4rem;
-  color: #1D1D1D;
-}
-
-#page-12468 a, #page-12470 a, #page-16053 a, #page-12471 a, #page-12469 a, #page-15972 a, #page-16121 a, #page-12679 a, #page-12680 a, #page-15973 a,
-#page-12683 a, #page-12686 a, #page-16056 a, #page-12687 a, #page-13601 a, #page-12474 a, #page-12478 a, #page-12476 a, #page-12477 a, #page-12762 a,
-#page-15853 a, #page-15854 a, #page-16998 a, #page-15856 a {
-  font-size: 1.6rem;
-  font-weight: 600;
-  line-height: 2.4rem;
-  color: #009775;
 }
 
 /* ||@ SPACING —————————————————————————————————————————————————————————————————————————————————————————————————— */
@@ -262,99 +256,14 @@
   /* Grid definieren */
 }
 
-#page-12468 .grid-container-shop {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: 300px auto;
+#page-12468 .headImg {
+  width: 100%;
+  height: 450px;
 }
 
-#page-12468 .grid-container-shop .item-1 {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-column: 1 / 4;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  grid-row: 1 / 3;
-  background-image: url("../kundenupload/content-management/img/verkaufsladen/Laden.jpg");
-  z-index: 10;
-}
-
-#page-12468 .grid-container-shop .item-2 {
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
-  grid-column: 3 / 4;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2 / 3;
-  background-color: #FFF;
-  z-index: 10;
-  padding: 1.5rem;
-}
-
-#page-12468 .grid-container-shop .item-2 table tbody td {
-  padding: 1rem 1rem 1rem 0;
-}
-
-#page-12468 .grid-container-shop .item-2 table tbody tr {
-  border-bottom: 1px solid #F8F8F8;
-}
-
-@media only screen and (max-width: 1240px) {
-  #page-12468 .grid-container-shop {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 300px auto;
-  }
-  #page-12468 .grid-container-shop .item-1 {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-column: 1 / 3;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 2;
-    grid-row: 1 / 3;
-    background-color: #F8F8F8;
-  }
-  #page-12468 .grid-container-shop .item-2 {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2 / 3;
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    grid-row: 2 / 3;
-    background-color: #FFF;
-  }
-}
-
-@media only screen and (max-width: 815px) {
-  #page-12468 .grid-container-shop {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 300px auto;
-  }
-  #page-12468 .grid-container-shop .item-1 {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-column: 1 / 3;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1 / 2;
-    background-color: #F8F8F8;
-  }
-  #page-12468 .grid-container-shop .item-2 {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-column: 1 / 3;
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    grid-row: 2 / 3;
-    background-color: #FFF;
-    padding: 1.5rem 0 0 0;
-  }
+#page-12468 .hr-t {
+  height: 5px;
+  width: 25%;
+  background-color: #009775;
 }
 /*# sourceMappingURL=styles.css.map */
