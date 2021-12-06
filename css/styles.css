@@ -466,4 +466,17 @@
   max-height: 100vh;
   padding: 1rem 1rem 1rem 0;
 }
+
+/* ||@ GYSO TOUR / Page-12469 ——————————————————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-12469 .main-image {
+  width: 100%;
+  height: 450px;
+}
+
+@media only screen and (max-width: 767.98px) {
+  #page-12469 .main-image {
+    height: 300px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

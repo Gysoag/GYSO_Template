@@ -3,8 +3,8 @@
 <div id="page-12471">
 
 
-<!-- || START -->
-<!-- ||@ Content Verkaufsladen / HTML -->
+<!-- || START HTML -->
+<!-- ||@ Content Lieferservice / HTML -->
 
 <!-- || Hauptbild -->
 <section class="section-block">
@@ -19,7 +19,7 @@
 
 <!-- || Lieferservice -->
 <section class="section-block mt-30">
-    <div class="opc-row" data-op-align-items="">
+    <div class="opc-row" data-op-align-items="center">
         <!-- Start Bild -->
         <div class="opc-col" data-op-col="12-6-6">
             <img class="img-right" src="./kundenupload/content-management/img/gray.jpg" width="100%" height="450px">
@@ -64,6 +64,7 @@
                 </div>
             </div>
             </div>
+           
         </div>
         </div>
         <!-- Ende Versandarten -->
@@ -86,10 +87,7 @@
 <!-- Ende Sonderfälle -->
 
 
-
-
-
-<!-- || ENDE -->
+<!-- || ENDE HTML -->
 
 
 </div>
