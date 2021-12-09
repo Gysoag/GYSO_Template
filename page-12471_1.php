@@ -7,9 +7,11 @@
 <!-- ||@ Content Lieferservice / HTML -->
 
 <!-- || Hauptbild -->
+<!--
 <section class="section-block">
-    <img class="main-image" src="./kundenupload/content-management/img/gray.jpg" alt="">
+    <img class="main-image" src="./kundenupload/content-management/img/Lieferservice.jpg" alt="">
 </section>
+-->
 
 <!-- || Titel und Beschreibung -->
 <section class="section-block">
@@ -22,7 +24,7 @@
     <div class="opc-row" data-op-align-items="center">
         <!-- Start Bild -->
         <div class="opc-col" data-op-col="12-6-6">
-            <img class="img-right" src="./kundenupload/content-management/img/gray.jpg" width="100%" height="450px">
+            <img class="img-right" src="./kundenupload/content-management/img/create engaging experiences.gif" width="100%" height="auto">
         </div>
         <!-- Ende Bild -->
         <!-- Start Versandarten -->
@@ -53,14 +55,16 @@
                 <input type="radio" id="rd3" name="rd">
                 <label class="tab-label" for="rd3">GYSO Tour</label>
                 <div class="tab-content">
-                    Im erweiterten Einzugsgebiet unserer Standorte Kloten (ZH) und Crissier (VD) bieten wir unseren Kunden einen hauseigenen Auslieferdienst an. 
+                    <p>Im erweiterten Einzugsgebiet unserer Standorte Kloten (ZH) und Crissier (VD) bieten wir unseren Kunden einen hauseigenen Auslieferdienst an.</p>
+                    <a href="#" class="opc-button mt-15" data-op-style="loud">Erfahre mehr</a> 
                 </div>
             </div>
             <div class="tab">
                 <input type="radio" id="rd4" name="rd" open>
                 <label class="tab-label" for="rd4">Abholen im Verkaufsladen</label>
                 <div class="tab-content">
-                    In unseren Verkaufsläden können Sie das benötigte Material während den Öffnungszeiten ohne Voranmeldung und Wartezeit abholen.
+                    <p>In unseren Verkaufsläden können Sie das benötigte Material während den Öffnungszeiten ohne Voranmeldung und Wartezeit abholen.</p>
+                    <a href="#" class="opc-button mt-15" data-op-style="loud">Erfahre mehr</a> 
                 </div>
             </div>
             </div>
@@ -85,6 +89,8 @@
 </p>
 </section>
 <!-- Ende Sonderfälle -->
+
+
 
 
 <!-- || ENDE HTML -->
