@@ -27,7 +27,7 @@
 /* || Globable Schriftstyle definieren —————————————————————————————————————————————————————————————————————————— */
 #page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973,
 #page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
-#page-15853, #page-15854, #page-16998, #page-15856, #page-77777 {
+#page-15853, #page-15854, #page-16998, #page-15856, #page-77777, #page-elemente {
   /*
     h3 {
         font-size: 2.0rem;
@@ -45,13 +45,6 @@
     }
 */
   /*
-    p {
-        font-size: 1.6rem;
-        font-weight: 500;
-        line-height: 1.6rem * 1.5;
-        color: $Main-black;
-    }
-
     a {
         font-size: 1.6rem;
         font-weight: 600;
@@ -63,7 +56,7 @@
 
 #page-12468 h1, #page-12470 h1, #page-16053 h1, #page-12471 h1, #page-12469 h1, #page-15972 h1, #page-16121 h1, #page-12679 h1, #page-12680 h1, #page-15973 h1,
 #page-12683 h1, #page-12686 h1, #page-16056 h1, #page-12687 h1, #page-13601 h1, #page-12474 h1, #page-12478 h1, #page-12476 h1, #page-12477 h1, #page-12762 h1,
-#page-15853 h1, #page-15854 h1, #page-16998 h1, #page-15856 h1, #page-77777 h1 {
+#page-15853 h1, #page-15854 h1, #page-16998 h1, #page-15856 h1, #page-77777 h1, #page-elemente h1 {
   font-size: 3.2rem;
   font-weight: 600;
   line-height: 4.8rem;
@@ -73,7 +66,7 @@
 
 #page-12468 h2, #page-12470 h2, #page-16053 h2, #page-12471 h2, #page-12469 h2, #page-15972 h2, #page-16121 h2, #page-12679 h2, #page-12680 h2, #page-15973 h2,
 #page-12683 h2, #page-12686 h2, #page-16056 h2, #page-12687 h2, #page-13601 h2, #page-12474 h2, #page-12478 h2, #page-12476 h2, #page-12477 h2, #page-12762 h2,
-#page-15853 h2, #page-15854 h2, #page-16998 h2, #page-15856 h2, #page-77777 h2 {
+#page-15853 h2, #page-15854 h2, #page-16998 h2, #page-15856 h2, #page-77777 h2, #page-elemente h2 {
   font-size: 2.4rem;
   font-weight: 600;
   line-height: 3.6rem;
@@ -82,7 +75,7 @@
 
 #page-12468 h4, #page-12470 h4, #page-16053 h4, #page-12471 h4, #page-12469 h4, #page-15972 h4, #page-16121 h4, #page-12679 h4, #page-12680 h4, #page-15973 h4,
 #page-12683 h4, #page-12686 h4, #page-16056 h4, #page-12687 h4, #page-13601 h4, #page-12474 h4, #page-12478 h4, #page-12476 h4, #page-12477 h4, #page-12762 h4,
-#page-15853 h4, #page-15854 h4, #page-16998 h4, #page-15856 h4, #page-77777 h4 {
+#page-15853 h4, #page-15854 h4, #page-16998 h4, #page-15856 h4, #page-77777 h4, #page-elemente h4 {
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 2.7rem;
@@ -91,7 +84,7 @@
 
 #page-12468 h6, #page-12470 h6, #page-16053 h6, #page-12471 h6, #page-12469 h6, #page-15972 h6, #page-16121 h6, #page-12679 h6, #page-12680 h6, #page-15973 h6,
 #page-12683 h6, #page-12686 h6, #page-16056 h6, #page-12687 h6, #page-13601 h6, #page-12474 h6, #page-12478 h6, #page-12476 h6, #page-12477 h6, #page-12762 h6,
-#page-15853 h6, #page-15854 h6, #page-16998 h6, #page-15856 h6, #page-77777 h6 {
+#page-15853 h6, #page-15854 h6, #page-16998 h6, #page-15856 h6, #page-77777 h6, #page-elemente h6 {
   font-size: 2.0rem;
   font-weight: 300;
   line-height: 3rem;
@@ -101,9 +94,18 @@
 
 #page-12468 li, #page-12470 li, #page-16053 li, #page-12471 li, #page-12469 li, #page-15972 li, #page-16121 li, #page-12679 li, #page-12680 li, #page-15973 li,
 #page-12683 li, #page-12686 li, #page-16056 li, #page-12687 li, #page-13601 li, #page-12474 li, #page-12478 li, #page-12476 li, #page-12477 li, #page-12762 li,
-#page-15853 li, #page-15854 li, #page-16998 li, #page-15856 li, #page-77777 li {
+#page-15853 li, #page-15854 li, #page-16998 li, #page-15856 li, #page-77777 li, #page-elemente li {
   font-weight: 500;
   line-height: 2.1rem;
+  color: #1D1D1D;
+}
+
+#page-12468 p, #page-12470 p, #page-16053 p, #page-12471 p, #page-12469 p, #page-15972 p, #page-16121 p, #page-12679 p, #page-12680 p, #page-15973 p,
+#page-12683 p, #page-12686 p, #page-16056 p, #page-12687 p, #page-13601 p, #page-12474 p, #page-12478 p, #page-12476 p, #page-12477 p, #page-12762 p,
+#page-15853 p, #page-15854 p, #page-16998 p, #page-15856 p, #page-77777 p, #page-elemente p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
   color: #1D1D1D;
 }
 
@@ -140,7 +142,7 @@
 /* || Globable Abstände definieren —————————————————————————————————————————————————————————————————————————————— */
 #page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973,
 #page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
-#page-15853, #page-15854, #page-16998, #page-15856, #page-77777 {
+#page-15853, #page-15854, #page-16998, #page-15856, #page-77777, #page-elemente {
   /* || padding-top */
   /* || padding-bottom */
   /* || margin-top */
@@ -149,145 +151,145 @@
 
 #page-12468 .pt-5, #page-12470 .pt-5, #page-16053 .pt-5, #page-12471 .pt-5, #page-12469 .pt-5, #page-15972 .pt-5, #page-16121 .pt-5, #page-12679 .pt-5, #page-12680 .pt-5, #page-15973 .pt-5,
 #page-12683 .pt-5, #page-12686 .pt-5, #page-16056 .pt-5, #page-12687 .pt-5, #page-13601 .pt-5, #page-12474 .pt-5, #page-12478 .pt-5, #page-12476 .pt-5, #page-12477 .pt-5, #page-12762 .pt-5,
-#page-15853 .pt-5, #page-15854 .pt-5, #page-16998 .pt-5, #page-15856 .pt-5, #page-77777 .pt-5 {
+#page-15853 .pt-5, #page-15854 .pt-5, #page-16998 .pt-5, #page-15856 .pt-5, #page-77777 .pt-5, #page-elemente .pt-5 {
   padding-top: 0.5rem;
 }
 
 #page-12468 .pt-10, #page-12470 .pt-10, #page-16053 .pt-10, #page-12471 .pt-10, #page-12469 .pt-10, #page-15972 .pt-10, #page-16121 .pt-10, #page-12679 .pt-10, #page-12680 .pt-10, #page-15973 .pt-10,
 #page-12683 .pt-10, #page-12686 .pt-10, #page-16056 .pt-10, #page-12687 .pt-10, #page-13601 .pt-10, #page-12474 .pt-10, #page-12478 .pt-10, #page-12476 .pt-10, #page-12477 .pt-10, #page-12762 .pt-10,
-#page-15853 .pt-10, #page-15854 .pt-10, #page-16998 .pt-10, #page-15856 .pt-10, #page-77777 .pt-10 {
+#page-15853 .pt-10, #page-15854 .pt-10, #page-16998 .pt-10, #page-15856 .pt-10, #page-77777 .pt-10, #page-elemente .pt-10 {
   padding-top: 1rem;
 }
 
 #page-12468 .pt-15, #page-12470 .pt-15, #page-16053 .pt-15, #page-12471 .pt-15, #page-12469 .pt-15, #page-15972 .pt-15, #page-16121 .pt-15, #page-12679 .pt-15, #page-12680 .pt-15, #page-15973 .pt-15,
 #page-12683 .pt-15, #page-12686 .pt-15, #page-16056 .pt-15, #page-12687 .pt-15, #page-13601 .pt-15, #page-12474 .pt-15, #page-12478 .pt-15, #page-12476 .pt-15, #page-12477 .pt-15, #page-12762 .pt-15,
-#page-15853 .pt-15, #page-15854 .pt-15, #page-16998 .pt-15, #page-15856 .pt-15, #page-77777 .pt-15 {
+#page-15853 .pt-15, #page-15854 .pt-15, #page-16998 .pt-15, #page-15856 .pt-15, #page-77777 .pt-15, #page-elemente .pt-15 {
   padding-top: 1.5rem;
 }
 
 #page-12468 .pt-30, #page-12470 .pt-30, #page-16053 .pt-30, #page-12471 .pt-30, #page-12469 .pt-30, #page-15972 .pt-30, #page-16121 .pt-30, #page-12679 .pt-30, #page-12680 .pt-30, #page-15973 .pt-30,
 #page-12683 .pt-30, #page-12686 .pt-30, #page-16056 .pt-30, #page-12687 .pt-30, #page-13601 .pt-30, #page-12474 .pt-30, #page-12478 .pt-30, #page-12476 .pt-30, #page-12477 .pt-30, #page-12762 .pt-30,
-#page-15853 .pt-30, #page-15854 .pt-30, #page-16998 .pt-30, #page-15856 .pt-30, #page-77777 .pt-30 {
+#page-15853 .pt-30, #page-15854 .pt-30, #page-16998 .pt-30, #page-15856 .pt-30, #page-77777 .pt-30, #page-elemente .pt-30 {
   padding-top: 3rem;
 }
 
 #page-12468 .pt-50, #page-12470 .pt-50, #page-16053 .pt-50, #page-12471 .pt-50, #page-12469 .pt-50, #page-15972 .pt-50, #page-16121 .pt-50, #page-12679 .pt-50, #page-12680 .pt-50, #page-15973 .pt-50,
 #page-12683 .pt-50, #page-12686 .pt-50, #page-16056 .pt-50, #page-12687 .pt-50, #page-13601 .pt-50, #page-12474 .pt-50, #page-12478 .pt-50, #page-12476 .pt-50, #page-12477 .pt-50, #page-12762 .pt-50,
-#page-15853 .pt-50, #page-15854 .pt-50, #page-16998 .pt-50, #page-15856 .pt-50, #page-77777 .pt-50 {
+#page-15853 .pt-50, #page-15854 .pt-50, #page-16998 .pt-50, #page-15856 .pt-50, #page-77777 .pt-50, #page-elemente .pt-50 {
   padding-top: 5rem;
 }
 
 #page-12468 .pt-100, #page-12470 .pt-100, #page-16053 .pt-100, #page-12471 .pt-100, #page-12469 .pt-100, #page-15972 .pt-100, #page-16121 .pt-100, #page-12679 .pt-100, #page-12680 .pt-100, #page-15973 .pt-100,
 #page-12683 .pt-100, #page-12686 .pt-100, #page-16056 .pt-100, #page-12687 .pt-100, #page-13601 .pt-100, #page-12474 .pt-100, #page-12478 .pt-100, #page-12476 .pt-100, #page-12477 .pt-100, #page-12762 .pt-100,
-#page-15853 .pt-100, #page-15854 .pt-100, #page-16998 .pt-100, #page-15856 .pt-100, #page-77777 .pt-100 {
+#page-15853 .pt-100, #page-15854 .pt-100, #page-16998 .pt-100, #page-15856 .pt-100, #page-77777 .pt-100, #page-elemente .pt-100 {
   padding-top: 10rem;
 }
 
 #page-12468 .pb-5, #page-12470 .pb-5, #page-16053 .pb-5, #page-12471 .pb-5, #page-12469 .pb-5, #page-15972 .pb-5, #page-16121 .pb-5, #page-12679 .pb-5, #page-12680 .pb-5, #page-15973 .pb-5,
 #page-12683 .pb-5, #page-12686 .pb-5, #page-16056 .pb-5, #page-12687 .pb-5, #page-13601 .pb-5, #page-12474 .pb-5, #page-12478 .pb-5, #page-12476 .pb-5, #page-12477 .pb-5, #page-12762 .pb-5,
-#page-15853 .pb-5, #page-15854 .pb-5, #page-16998 .pb-5, #page-15856 .pb-5, #page-77777 .pb-5 {
+#page-15853 .pb-5, #page-15854 .pb-5, #page-16998 .pb-5, #page-15856 .pb-5, #page-77777 .pb-5, #page-elemente .pb-5 {
   padding-bottom: 0.5rem;
 }
 
 #page-12468 .pb-10, #page-12470 .pb-10, #page-16053 .pb-10, #page-12471 .pb-10, #page-12469 .pb-10, #page-15972 .pb-10, #page-16121 .pb-10, #page-12679 .pb-10, #page-12680 .pb-10, #page-15973 .pb-10,
 #page-12683 .pb-10, #page-12686 .pb-10, #page-16056 .pb-10, #page-12687 .pb-10, #page-13601 .pb-10, #page-12474 .pb-10, #page-12478 .pb-10, #page-12476 .pb-10, #page-12477 .pb-10, #page-12762 .pb-10,
-#page-15853 .pb-10, #page-15854 .pb-10, #page-16998 .pb-10, #page-15856 .pb-10, #page-77777 .pb-10 {
+#page-15853 .pb-10, #page-15854 .pb-10, #page-16998 .pb-10, #page-15856 .pb-10, #page-77777 .pb-10, #page-elemente .pb-10 {
   padding-bottom: 1rem;
 }
 
 #page-12468 .pb-15, #page-12470 .pb-15, #page-16053 .pb-15, #page-12471 .pb-15, #page-12469 .pb-15, #page-15972 .pb-15, #page-16121 .pb-15, #page-12679 .pb-15, #page-12680 .pb-15, #page-15973 .pb-15,
 #page-12683 .pb-15, #page-12686 .pb-15, #page-16056 .pb-15, #page-12687 .pb-15, #page-13601 .pb-15, #page-12474 .pb-15, #page-12478 .pb-15, #page-12476 .pb-15, #page-12477 .pb-15, #page-12762 .pb-15,
-#page-15853 .pb-15, #page-15854 .pb-15, #page-16998 .pb-15, #page-15856 .pb-15, #page-77777 .pb-15 {
+#page-15853 .pb-15, #page-15854 .pb-15, #page-16998 .pb-15, #page-15856 .pb-15, #page-77777 .pb-15, #page-elemente .pb-15 {
   padding-bottom: 1.5rem;
 }
 
 #page-12468 .pb-30, #page-12470 .pb-30, #page-16053 .pb-30, #page-12471 .pb-30, #page-12469 .pb-30, #page-15972 .pb-30, #page-16121 .pb-30, #page-12679 .pb-30, #page-12680 .pb-30, #page-15973 .pb-30,
 #page-12683 .pb-30, #page-12686 .pb-30, #page-16056 .pb-30, #page-12687 .pb-30, #page-13601 .pb-30, #page-12474 .pb-30, #page-12478 .pb-30, #page-12476 .pb-30, #page-12477 .pb-30, #page-12762 .pb-30,
-#page-15853 .pb-30, #page-15854 .pb-30, #page-16998 .pb-30, #page-15856 .pb-30, #page-77777 .pb-30 {
+#page-15853 .pb-30, #page-15854 .pb-30, #page-16998 .pb-30, #page-15856 .pb-30, #page-77777 .pb-30, #page-elemente .pb-30 {
   padding-bottom: 3rem;
 }
 
 #page-12468 .pb-50, #page-12470 .pb-50, #page-16053 .pb-50, #page-12471 .pb-50, #page-12469 .pb-50, #page-15972 .pb-50, #page-16121 .pb-50, #page-12679 .pb-50, #page-12680 .pb-50, #page-15973 .pb-50,
 #page-12683 .pb-50, #page-12686 .pb-50, #page-16056 .pb-50, #page-12687 .pb-50, #page-13601 .pb-50, #page-12474 .pb-50, #page-12478 .pb-50, #page-12476 .pb-50, #page-12477 .pb-50, #page-12762 .pb-50,
-#page-15853 .pb-50, #page-15854 .pb-50, #page-16998 .pb-50, #page-15856 .pb-50, #page-77777 .pb-50 {
+#page-15853 .pb-50, #page-15854 .pb-50, #page-16998 .pb-50, #page-15856 .pb-50, #page-77777 .pb-50, #page-elemente .pb-50 {
   padding-bottom: 5rem;
 }
 
 #page-12468 .pb-100, #page-12470 .pb-100, #page-16053 .pb-100, #page-12471 .pb-100, #page-12469 .pb-100, #page-15972 .pb-100, #page-16121 .pb-100, #page-12679 .pb-100, #page-12680 .pb-100, #page-15973 .pb-100,
 #page-12683 .pb-100, #page-12686 .pb-100, #page-16056 .pb-100, #page-12687 .pb-100, #page-13601 .pb-100, #page-12474 .pb-100, #page-12478 .pb-100, #page-12476 .pb-100, #page-12477 .pb-100, #page-12762 .pb-100,
-#page-15853 .pb-100, #page-15854 .pb-100, #page-16998 .pb-100, #page-15856 .pb-100, #page-77777 .pb-100 {
+#page-15853 .pb-100, #page-15854 .pb-100, #page-16998 .pb-100, #page-15856 .pb-100, #page-77777 .pb-100, #page-elemente .pb-100 {
   padding-bottom: 10rem;
 }
 
 #page-12468 .mt-5, #page-12470 .mt-5, #page-16053 .mt-5, #page-12471 .mt-5, #page-12469 .mt-5, #page-15972 .mt-5, #page-16121 .mt-5, #page-12679 .mt-5, #page-12680 .mt-5, #page-15973 .mt-5,
 #page-12683 .mt-5, #page-12686 .mt-5, #page-16056 .mt-5, #page-12687 .mt-5, #page-13601 .mt-5, #page-12474 .mt-5, #page-12478 .mt-5, #page-12476 .mt-5, #page-12477 .mt-5, #page-12762 .mt-5,
-#page-15853 .mt-5, #page-15854 .mt-5, #page-16998 .mt-5, #page-15856 .mt-5, #page-77777 .mt-5 {
+#page-15853 .mt-5, #page-15854 .mt-5, #page-16998 .mt-5, #page-15856 .mt-5, #page-77777 .mt-5, #page-elemente .mt-5 {
   margin-top: 0.5rem;
 }
 
 #page-12468 .mt-10, #page-12470 .mt-10, #page-16053 .mt-10, #page-12471 .mt-10, #page-12469 .mt-10, #page-15972 .mt-10, #page-16121 .mt-10, #page-12679 .mt-10, #page-12680 .mt-10, #page-15973 .mt-10,
 #page-12683 .mt-10, #page-12686 .mt-10, #page-16056 .mt-10, #page-12687 .mt-10, #page-13601 .mt-10, #page-12474 .mt-10, #page-12478 .mt-10, #page-12476 .mt-10, #page-12477 .mt-10, #page-12762 .mt-10,
-#page-15853 .mt-10, #page-15854 .mt-10, #page-16998 .mt-10, #page-15856 .mt-10, #page-77777 .mt-10 {
+#page-15853 .mt-10, #page-15854 .mt-10, #page-16998 .mt-10, #page-15856 .mt-10, #page-77777 .mt-10, #page-elemente .mt-10 {
   margin-top: 1rem;
 }
 
 #page-12468 .mt-15, #page-12470 .mt-15, #page-16053 .mt-15, #page-12471 .mt-15, #page-12469 .mt-15, #page-15972 .mt-15, #page-16121 .mt-15, #page-12679 .mt-15, #page-12680 .mt-15, #page-15973 .mt-15,
 #page-12683 .mt-15, #page-12686 .mt-15, #page-16056 .mt-15, #page-12687 .mt-15, #page-13601 .mt-15, #page-12474 .mt-15, #page-12478 .mt-15, #page-12476 .mt-15, #page-12477 .mt-15, #page-12762 .mt-15,
-#page-15853 .mt-15, #page-15854 .mt-15, #page-16998 .mt-15, #page-15856 .mt-15, #page-77777 .mt-15 {
+#page-15853 .mt-15, #page-15854 .mt-15, #page-16998 .mt-15, #page-15856 .mt-15, #page-77777 .mt-15, #page-elemente .mt-15 {
   margin-top: 1.5rem;
 }
 
 #page-12468 .mt-30, #page-12470 .mt-30, #page-16053 .mt-30, #page-12471 .mt-30, #page-12469 .mt-30, #page-15972 .mt-30, #page-16121 .mt-30, #page-12679 .mt-30, #page-12680 .mt-30, #page-15973 .mt-30,
 #page-12683 .mt-30, #page-12686 .mt-30, #page-16056 .mt-30, #page-12687 .mt-30, #page-13601 .mt-30, #page-12474 .mt-30, #page-12478 .mt-30, #page-12476 .mt-30, #page-12477 .mt-30, #page-12762 .mt-30,
-#page-15853 .mt-30, #page-15854 .mt-30, #page-16998 .mt-30, #page-15856 .mt-30, #page-77777 .mt-30 {
+#page-15853 .mt-30, #page-15854 .mt-30, #page-16998 .mt-30, #page-15856 .mt-30, #page-77777 .mt-30, #page-elemente .mt-30 {
   margin-top: 3rem;
 }
 
 #page-12468 .mt-50, #page-12470 .mt-50, #page-16053 .mt-50, #page-12471 .mt-50, #page-12469 .mt-50, #page-15972 .mt-50, #page-16121 .mt-50, #page-12679 .mt-50, #page-12680 .mt-50, #page-15973 .mt-50,
 #page-12683 .mt-50, #page-12686 .mt-50, #page-16056 .mt-50, #page-12687 .mt-50, #page-13601 .mt-50, #page-12474 .mt-50, #page-12478 .mt-50, #page-12476 .mt-50, #page-12477 .mt-50, #page-12762 .mt-50,
-#page-15853 .mt-50, #page-15854 .mt-50, #page-16998 .mt-50, #page-15856 .mt-50, #page-77777 .mt-50 {
+#page-15853 .mt-50, #page-15854 .mt-50, #page-16998 .mt-50, #page-15856 .mt-50, #page-77777 .mt-50, #page-elemente .mt-50 {
   margin-top: 5rem;
 }
 
 #page-12468 .mt-100, #page-12470 .mt-100, #page-16053 .mt-100, #page-12471 .mt-100, #page-12469 .mt-100, #page-15972 .mt-100, #page-16121 .mt-100, #page-12679 .mt-100, #page-12680 .mt-100, #page-15973 .mt-100,
 #page-12683 .mt-100, #page-12686 .mt-100, #page-16056 .mt-100, #page-12687 .mt-100, #page-13601 .mt-100, #page-12474 .mt-100, #page-12478 .mt-100, #page-12476 .mt-100, #page-12477 .mt-100, #page-12762 .mt-100,
-#page-15853 .mt-100, #page-15854 .mt-100, #page-16998 .mt-100, #page-15856 .mt-100, #page-77777 .mt-100 {
+#page-15853 .mt-100, #page-15854 .mt-100, #page-16998 .mt-100, #page-15856 .mt-100, #page-77777 .mt-100, #page-elemente .mt-100 {
   margin-top: 10rem;
 }
 
 #page-12468 .mb-5, #page-12470 .mb-5, #page-16053 .mb-5, #page-12471 .mb-5, #page-12469 .mb-5, #page-15972 .mb-5, #page-16121 .mb-5, #page-12679 .mb-5, #page-12680 .mb-5, #page-15973 .mb-5,
 #page-12683 .mb-5, #page-12686 .mb-5, #page-16056 .mb-5, #page-12687 .mb-5, #page-13601 .mb-5, #page-12474 .mb-5, #page-12478 .mb-5, #page-12476 .mb-5, #page-12477 .mb-5, #page-12762 .mb-5,
-#page-15853 .mb-5, #page-15854 .mb-5, #page-16998 .mb-5, #page-15856 .mb-5, #page-77777 .mb-5 {
+#page-15853 .mb-5, #page-15854 .mb-5, #page-16998 .mb-5, #page-15856 .mb-5, #page-77777 .mb-5, #page-elemente .mb-5 {
   margin-bottom: 0.5rem;
 }
 
 #page-12468 .mb-10, #page-12470 .mb-10, #page-16053 .mb-10, #page-12471 .mb-10, #page-12469 .mb-10, #page-15972 .mb-10, #page-16121 .mb-10, #page-12679 .mb-10, #page-12680 .mb-10, #page-15973 .mb-10,
 #page-12683 .mb-10, #page-12686 .mb-10, #page-16056 .mb-10, #page-12687 .mb-10, #page-13601 .mb-10, #page-12474 .mb-10, #page-12478 .mb-10, #page-12476 .mb-10, #page-12477 .mb-10, #page-12762 .mb-10,
-#page-15853 .mb-10, #page-15854 .mb-10, #page-16998 .mb-10, #page-15856 .mb-10, #page-77777 .mb-10 {
+#page-15853 .mb-10, #page-15854 .mb-10, #page-16998 .mb-10, #page-15856 .mb-10, #page-77777 .mb-10, #page-elemente .mb-10 {
   margin-bottom: 1rem;
 }
 
 #page-12468 .mb-15, #page-12470 .mb-15, #page-16053 .mb-15, #page-12471 .mb-15, #page-12469 .mb-15, #page-15972 .mb-15, #page-16121 .mb-15, #page-12679 .mb-15, #page-12680 .mb-15, #page-15973 .mb-15,
 #page-12683 .mb-15, #page-12686 .mb-15, #page-16056 .mb-15, #page-12687 .mb-15, #page-13601 .mb-15, #page-12474 .mb-15, #page-12478 .mb-15, #page-12476 .mb-15, #page-12477 .mb-15, #page-12762 .mb-15,
-#page-15853 .mb-15, #page-15854 .mb-15, #page-16998 .mb-15, #page-15856 .mb-15, #page-77777 .mb-15 {
+#page-15853 .mb-15, #page-15854 .mb-15, #page-16998 .mb-15, #page-15856 .mb-15, #page-77777 .mb-15, #page-elemente .mb-15 {
   margin-bottom: 1.5rem;
 }
 
 #page-12468 .mb-30, #page-12470 .mb-30, #page-16053 .mb-30, #page-12471 .mb-30, #page-12469 .mb-30, #page-15972 .mb-30, #page-16121 .mb-30, #page-12679 .mb-30, #page-12680 .mb-30, #page-15973 .mb-30,
 #page-12683 .mb-30, #page-12686 .mb-30, #page-16056 .mb-30, #page-12687 .mb-30, #page-13601 .mb-30, #page-12474 .mb-30, #page-12478 .mb-30, #page-12476 .mb-30, #page-12477 .mb-30, #page-12762 .mb-30,
-#page-15853 .mb-30, #page-15854 .mb-30, #page-16998 .mb-30, #page-15856 .mb-30, #page-77777 .mb-30 {
+#page-15853 .mb-30, #page-15854 .mb-30, #page-16998 .mb-30, #page-15856 .mb-30, #page-77777 .mb-30, #page-elemente .mb-30 {
   margin-bottom: 3rem;
 }
 
 #page-12468 .mb-50, #page-12470 .mb-50, #page-16053 .mb-50, #page-12471 .mb-50, #page-12469 .mb-50, #page-15972 .mb-50, #page-16121 .mb-50, #page-12679 .mb-50, #page-12680 .mb-50, #page-15973 .mb-50,
 #page-12683 .mb-50, #page-12686 .mb-50, #page-16056 .mb-50, #page-12687 .mb-50, #page-13601 .mb-50, #page-12474 .mb-50, #page-12478 .mb-50, #page-12476 .mb-50, #page-12477 .mb-50, #page-12762 .mb-50,
-#page-15853 .mb-50, #page-15854 .mb-50, #page-16998 .mb-50, #page-15856 .mb-50, #page-77777 .mb-50 {
+#page-15853 .mb-50, #page-15854 .mb-50, #page-16998 .mb-50, #page-15856 .mb-50, #page-77777 .mb-50, #page-elemente .mb-50 {
   margin-bottom: 5rem;
 }
 
 #page-12468 .mb-100, #page-12470 .mb-100, #page-16053 .mb-100, #page-12471 .mb-100, #page-12469 .mb-100, #page-15972 .mb-100, #page-16121 .mb-100, #page-12679 .mb-100, #page-12680 .mb-100, #page-15973 .mb-100,
 #page-12683 .mb-100, #page-12686 .mb-100, #page-16056 .mb-100, #page-12687 .mb-100, #page-13601 .mb-100, #page-12474 .mb-100, #page-12478 .mb-100, #page-12476 .mb-100, #page-12477 .mb-100, #page-12762 .mb-100,
-#page-15853 .mb-100, #page-15854 .mb-100, #page-16998 .mb-100, #page-15856 .mb-100, #page-77777 .mb-100 {
+#page-15853 .mb-100, #page-15854 .mb-100, #page-16998 .mb-100, #page-15856 .mb-100, #page-77777 .mb-100, #page-elemente .mb-100 {
   margin-bottom: 10rem;
 }
 
@@ -474,22 +476,174 @@
   height: 450px;
 }
 
+#page-12469 .card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
 @media only screen and (max-width: 767.98px) {
   #page-12469 .main-image {
     height: 300px;
   }
 }
 
-/* ||@ TESTSEITE / Page-77777 ——————————————————————————————————————————————————————————————————————————————————— */
+/* ||@ SCHNEIDCENTER + LABORTECHNIK / Page-12470, Page-16053 ———————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
-#page-77777 .main-image {
-  width: 100%;
-  height: 450px;
+#page-12470, #page-16053 {
+  /* || Container With Left full —————————————————————————————————————————————————————————————————————————————— */
 }
 
-@media only screen and (max-width: 767.98px) {
-  #page-77777 .main-image {
-    height: 300px;
-  }
+#page-12470 .container-width-100-l, #page-16053 .container-width-100-l {
+  width: 100%;
+  height: 50rem;
+  background-color: #F8F8F8;
+  position: relative;
+}
+
+#page-12470 .container-width-100-l::before, #page-16053 .container-width-100-l::before {
+  content: "";
+  background-color: inherit;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  width: 99999px;
+}
+
+#page-12470 .test, #page-16053 .test {
+  width: 100%;
+  position: relative;
+}
+
+#page-12470 .test::after, #page-16053 .test::after {
+  content: "";
+  background-color: #009775;
+  position: absolute;
+  top: 0;
+  height: 50%;
+  bottom: 0;
+  left: 100%;
+  width: 99999px;
+}
+
+#page-12470 .test iframe, #page-16053 .test iframe {
+  border-width: 0;
+}
+
+/* ||@ TESTSEITE / Page-77777 ——————————————————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+/* ||@ TESTSEITE-ELEMENTE / Page-elemente ——————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-elemente {
+  /* || Container With 100% ————————————————————————————————————————————————————————————————————————————————————————— */
+  /* || Container With Left full ————————————————————————————————————————————————————————————————————————————————————————— */
+  /* || Container With Right full ————————————————————————————————————————————————————————————————————————————————————————— */
+  /* || Container With 100% Text ————————————————————————————————————————————————————————————————————————————————————————— */
+  /* || 33 ————————————————————————————————————————————————————————————————————————————————————————— */
+}
+
+#page-elemente .card-layout {
+  background-color: #FFFFFF;
+  padding: 3rem;
+  border: 1px solid #eee;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: relative;
+  min-height: 295px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#page-elemente .card-layout .text {
+  position: absolute;
+  right: -52px;
+  top: calc(40% - (26rem / 2));
+  font-size: 300px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #009774b0;
+  z-index: -1;
+}
+
+#page-elemente .container-width-100 {
+  width: 100%;
+  height: auto;
+  background-color: #009775;
+  position: relative;
+}
+
+#page-elemente .container-width-100::before {
+  content: "";
+  background-color: inherit;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  width: 99999px;
+}
+
+#page-elemente .container-width-100::after {
+  content: "";
+  background-color: inherit;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  width: 99999px;
+}
+
+#page-elemente .container-width-100-l {
+  width: 100%;
+  height: auto;
+  background-color: #009775;
+  position: relative;
+}
+
+#page-elemente .container-width-100-l::before {
+  content: "";
+  background-color: inherit;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  width: 99999px;
+}
+
+#page-elemente .container-width-100-r {
+  width: 100%;
+  height: auto;
+  background-color: #009775;
+  position: relative;
+}
+
+#page-elemente .container-width-100-r::after {
+  content: "";
+  background-color: inherit;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  width: 99999px;
+}
+
+#page-elemente .text-for-cw100 {
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+#page-elemente .text-for-cw100 h1 {
+  font-size: 6rem;
+  color: #FFFFFF;
+}
+
+#page-elemente .text-for-cw100 p {
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=styles.css.map */

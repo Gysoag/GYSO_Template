@@ -24,7 +24,7 @@
     <div class="opc-row" data-op-align-items="center">
         <!-- Start Bild -->
         <div class="opc-col" data-op-col="12-6-6">
-            <img class="img-right" src="./kundenupload/content-management/img/create engaging experiences.gif" width="100%" height="auto">
+            <img class="img-right" src="./kundenupload/content-management/img/gray.jpg" width="100%" height="450px">
         </div>
         <!-- Ende Bild -->
         <!-- Start Versandarten -->

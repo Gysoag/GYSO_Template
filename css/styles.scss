@@ -34,6 +34,7 @@ $Mid-gray: #575757;
 $Dark-gray: #464646;
 $Main-black: #1D1D1D;       // Standard schwarz
 $Main-white: #FFFFFF;
+$Main-green-30: #009774b0;
 
 
 /* ||@ TYPOGRAPHY ——————————————————————————————————————————————————————————————————————————————————————————————— */
@@ -41,7 +42,7 @@ $Main-white: #FFFFFF;
 
 #page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973, 
 #page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
-#page-15853, #page-15854, #page-16998, #page-15856, #page-77777 {
+#page-15853, #page-15854, #page-16998, #page-15856, #page-77777, #page-elemente {
 
     h1 {
         font-size: 3.2rem;
@@ -92,14 +93,14 @@ $Main-white: #FFFFFF;
         line-height: 1.4rem * 1.5;
         color: $Main-black;
     }
-/*
+
     p {
         font-size: 1.6rem;
         font-weight: 500;
         line-height: 1.6rem * 1.5;
         color: $Main-black;
     }
-
+/*
     a {
         font-size: 1.6rem;
         font-weight: 600;
@@ -145,7 +146,7 @@ $Main-white: #FFFFFF;
 /* || Globable Abstände definieren —————————————————————————————————————————————————————————————————————————————— */
 #page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973, 
 #page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
-#page-15853, #page-15854, #page-16998, #page-15856, #page-77777 {
+#page-15853, #page-15854, #page-16998, #page-15856, #page-77777, #page-elemente {
 /* || padding-top */
 .pt-5 {
     padding-top: 0.5rem;
@@ -410,6 +411,14 @@ input:checked {
         height: 450px;
     }
 
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 100%;
+        border-radius: 5px;
+        padding: 1.5rem;
+      }
+
     // Small devices (landscape phones, less than 768px)
     @media only screen and (max-width: 767.98px) {
         .main-image {
@@ -417,26 +426,170 @@ input:checked {
         }
     }
 
+}
+
+/* ||@ SCHNEIDCENTER + LABORTECHNIK / Page-12470, Page-16053 ———————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-12470, #page-16053 {
+
+    /* || Container With Left full —————————————————————————————————————————————————————————————————————————————— */
+    .container-width-100-l {
+        width: 100%;
+        height: 50rem;
+        background-color: $Very-light-gray;
+        position: relative;
+
+        &::before {
+            content: "";
+            background-color: inherit;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 100%;
+            width: 99999px;
+        }
+    }
+
+    .test {
+        width: 100%;
+        position: relative;
+
+        &::after {
+            content: "";
+            background-color: $Main-green;
+            position: absolute;
+            top: 0;
+            height: 50%;
+            bottom: 0;
+            left: 100%;
+            width: 99999px;
+        }
+
+        iframe {
+            border-width: 0;
+        }
+
+    }
 }
 
 /* ||@ TESTSEITE / Page-77777 ——————————————————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-77777 {
 
-    .main-image {
-        width: 100%;
-        height: 450px;
-    }
-
-    // Small devices (landscape phones, less than 768px)
-    @media only screen and (max-width: 767.98px) {
-        .main-image {
-            height: 300px;
-        }
-    }
 
 }
 
+/* ||@ TESTSEITE-ELEMENTE / Page-elemente ——————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-elemente {
+
+    .card-layout {
+        background-color: $Main-white;
+        padding: 3rem;
+        border: 1px solid #eee;
+        box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+        position: relative;
+        min-height: 295px;
+        z-index: 1;
+        overflow: hidden;
+
+        .text {
+            position: absolute;
+            right: -52px;
+            top: calc(40% - (26rem / 2));
+            font-size: 300px;
+            font-weight: 900;
+            font-family: Arial, Helvetica, sans-serif;
+            color: $Main-green-30;
+            z-index: -1;
+        }
+    }
+
+/* || Container With 100% ————————————————————————————————————————————————————————————————————————————————————————— */
+    .container-width-100 {
+        width: 100%;
+        height: auto;
+        background-color: $Main-green;
+        position: relative;
+
+        &::before {
+            content: "";
+            background-color: inherit;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 100%;
+            width: 99999px;
+        }
+
+        &::after {
+            content: "";
+            background-color: inherit;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 100%;
+            width: 99999px;
+        }
+    }
+
+/* || Container With Left full ————————————————————————————————————————————————————————————————————————————————————————— */
+    .container-width-100-l {
+        width: 100%;
+        height: auto;
+        background-color: $Main-green;
+        position: relative;
+
+        &::before {
+            content: "";
+            background-color: inherit;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 100%;
+            width: 99999px;
+        }
+    }
+
+/* || Container With Right full ————————————————————————————————————————————————————————————————————————————————————————— */
+    .container-width-100-r {
+        width: 100%;
+        height: auto;
+        background-color: $Main-green;
+        position: relative;
+
+        &::after {
+            content: "";
+            background-color: inherit;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 100%;
+            width: 99999px;
+        }
+    }
+
+/* || Container With 100% Text ————————————————————————————————————————————————————————————————————————————————————————— */
+    .text-for-cw100 {
+        text-align: center;
+        color: $Main-white;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+
+        h1 {        
+            font-size: 6rem;
+            color: $Main-white;
+        }
+
+        p {
+            margin-top: 3rem;
+        }
+    }
+
+/* || 33 ————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+}
 
 
 

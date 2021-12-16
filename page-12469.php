@@ -6,10 +6,11 @@
 <!-- || START HTML -->
 <!-- ||@ Content GYSO Tour / HTML -->
 
-<!-- || Hauptbild -->
+<!-- || Hauptbild 
 <section class="section-block">
     <img class="main-image" src="./kundenupload/content-management/img/gray.jpg" alt="">
 </section>
+-->
 
 <!-- || Titel und Beschreibung -->
 <section class="section-block">
@@ -25,7 +26,7 @@
             <img class="img-right" src="./kundenupload/content-management/img/gray.jpg" width="100%" height="450px">
         </div>
         <div class="opc-col" data-op-col="12-6-6">
-            <h2>Mit dem GYSO Tour geniessen Sie folgende Vorteile</h2>
+            <h2>Mit dem GYSO Tour Lieferservice geniessen Sie folgende Vorteile</h2>
             <ul>
                 <li>Sie profitieren von reduzierten Versandkosten (70% der fälligen Post Versandkosten).</li>
                 <li>Die Lieferung wird Ihnen persönlich von unseren Chauffeuren übergeben.</li>
@@ -42,7 +43,9 @@
 <!-- || GYSO Tour Gelegentlich -->
 <section class="section-block mt-30">
     <div class="opc-row" data-op-align-items="center">
-
+        <div class="opc-col" data-op-col="12-6-6">
+            <img class="img-right" src="./kundenupload/content-management/img/gray.jpg" width="100%" height="450px">
+        </div>
         <div class="opc-col" data-op-col="12-6-6">
             <h2>GYSO Tour Gelegentlich</h2>
             <p>
@@ -55,9 +58,7 @@
                 <li>Die Lieferung wird Ihnen persönlich von unseren Chauffeuren übergeben.</li>
                 <li>Sie gehen keine Verpflichtungen ein und können die Lieferart bei jeder Bestellung wieder neu festlegen.</li>
         </div>
-        <div class="opc-col" data-op-col="12-6-6">
-            <img class="img-right" src="./kundenupload/content-management/img/gray.jpg" width="100%" height="450px">
-        </div>
+
     </div>   
 </section>
 
@@ -65,6 +66,59 @@
 <section class="section-block">
     <h2 class="mt-30">Lieferplan und Auslieferzeit</h2> 
     <p class="mt-15">Die Auslieferung erfolgt am besagten Liefertag zwischen <b>08.00 Uhr</b> und <b>16.00 Uhr</b>.</p>
+    <div class="opc-row">
+        <div class="opc-col" data-op-col="12-4-4">
+
+            <div class="card">
+                <div class="card-titel">
+                    <h3>GYSO Tour 1</h3>
+                    <h6>Montag & Mittwoch</h6>
+                </div>
+                <div class="card-container">
+                    <ul>
+                        <li>linker Zürichsee</li>
+                        <li>Säuliamt</li>
+                        <li>Aargau</li>
+                        <li>Limmattal</li>
+                        <li>Zürcher Unterland</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="opc-col" data-op-col="12-4-4">
+
+            <div class="card">
+                <div class="card-titel">
+                    <h3>GYSO Tour 2</h3>
+                    <h6>Dienstag & Donnerstag</h6>
+                </div>
+                <div class="card-container">
+                    <ul>
+                        <li>linker Zürichsee</li>
+                        <li>Säuliamt</li>
+                        <li>Aargau</li>
+                        <li>Limmattal</li>
+                        <li>Zürcher Unterland</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="opc-col" data-op-col="12-4-4">
+
+            <div class="card">
+                <div class="card-titel">
+                    <h3>GYSO Tour 3</h3>
+                    <h6>Freitag</h6>
+                </div>
+                <div class="card-container">
+                    <p>freie Tour nach Einteilung von GYSO</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </section>
 
 
