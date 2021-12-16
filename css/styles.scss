@@ -228,7 +228,24 @@ $Main-green-30: #009774b0;
 
 /* ||@ COMPONENTS ——————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Gloable Komponenten definieren ———————————————————————————————————————————————————————————————————————————— */
+#page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973, 
+#page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
+#page-15853, #page-15854, #page-16998, #page-15856, #page-77777, #page-elemente {
 
+    .section-text-center {
+        text-align: center;
+    }
+
+    b {
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    .hr-light {
+        width: 33%;
+        border: 1px solid $Very-light-gray
+    }
+}
 
 
 /* ||@ VERKAUFSLADEN / Page-12468 ——————————————————————————————————————————————————————————————————————————————— */
@@ -399,6 +416,28 @@ input:checked {
     padding: 1rem 1rem 2rem 0;
   }
 }
+
+
+.card-layout {
+    background-color: $Main-white;
+    padding: 3rem;
+    box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+    position: relative;
+    min-height: 200px;
+    z-index: 1;
+    overflow: hidden;
+
+    .text {
+        position: absolute;
+        right: -52px;
+        top: calc(40% - (26rem / 2));
+        font-size: 250px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $Very-light-gray;
+        z-index: -1;
+    }
+}
     
 }
 
@@ -472,10 +511,46 @@ input:checked {
     }
 }
 
+/* ||@ KLEBSTOFF-EMPFEHLUNGEN / Page-15972 —————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-15972 {
+
+    .klebstoff-card {
+        position: relative;
+        width: 100%;
+        height: 280px;
+        
+        img {
+            width: 100%;
+        }
+
+        .klebstoff-title {
+            position: absolute;
+            bottom: .5rem;
+            left: 3rem;
+            
+            h2, h6  {
+                color: $Main-white;
+            }
+        }
+    }
+
+}
+
 /* ||@ TESTSEITE / Page-77777 ——————————————————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-77777 {
 
+    .payment-method { 
+        display: flex;
+        justify-content:center; 
+    }
+    .payment-method-img {   
+        width:260px;
+        height: 120px;
+        margin-right: 1.5rem;
+        background-color: $Dark-gray;
+    }
 
 }
 

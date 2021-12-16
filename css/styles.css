@@ -295,6 +295,26 @@
 
 /* ||@ COMPONENTS ——————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Gloable Komponenten definieren ———————————————————————————————————————————————————————————————————————————— */
+#page-12468 .section-text-center, #page-12470 .section-text-center, #page-16053 .section-text-center, #page-12471 .section-text-center, #page-12469 .section-text-center, #page-15972 .section-text-center, #page-16121 .section-text-center, #page-12679 .section-text-center, #page-12680 .section-text-center, #page-15973 .section-text-center,
+#page-12683 .section-text-center, #page-12686 .section-text-center, #page-16056 .section-text-center, #page-12687 .section-text-center, #page-13601 .section-text-center, #page-12474 .section-text-center, #page-12478 .section-text-center, #page-12476 .section-text-center, #page-12477 .section-text-center, #page-12762 .section-text-center,
+#page-15853 .section-text-center, #page-15854 .section-text-center, #page-16998 .section-text-center, #page-15856 .section-text-center, #page-77777 .section-text-center, #page-elemente .section-text-center {
+  text-align: center;
+}
+
+#page-12468 b, #page-12470 b, #page-16053 b, #page-12471 b, #page-12469 b, #page-15972 b, #page-16121 b, #page-12679 b, #page-12680 b, #page-15973 b,
+#page-12683 b, #page-12686 b, #page-16056 b, #page-12687 b, #page-13601 b, #page-12474 b, #page-12478 b, #page-12476 b, #page-12477 b, #page-12762 b,
+#page-15853 b, #page-15854 b, #page-16998 b, #page-15856 b, #page-77777 b, #page-elemente b {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#page-12468 .hr-light, #page-12470 .hr-light, #page-16053 .hr-light, #page-12471 .hr-light, #page-12469 .hr-light, #page-15972 .hr-light, #page-16121 .hr-light, #page-12679 .hr-light, #page-12680 .hr-light, #page-15973 .hr-light,
+#page-12683 .hr-light, #page-12686 .hr-light, #page-16056 .hr-light, #page-12687 .hr-light, #page-13601 .hr-light, #page-12474 .hr-light, #page-12478 .hr-light, #page-12476 .hr-light, #page-12477 .hr-light, #page-12762 .hr-light,
+#page-15853 .hr-light, #page-15854 .hr-light, #page-16998 .hr-light, #page-15856 .hr-light, #page-77777 .hr-light, #page-elemente .hr-light {
+  width: 33%;
+  border: 1px solid #F8F8F8;
+}
+
 /* ||@ VERKAUFSLADEN / Page-12468 ——————————————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-12468 {
@@ -469,6 +489,28 @@
   padding: 1rem 1rem 2rem 0;
 }
 
+#page-12471 .card-layout {
+  background-color: #FFFFFF;
+  padding: 3rem;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: relative;
+  min-height: 200px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#page-12471 .card-layout .text {
+  position: absolute;
+  right: -52px;
+  top: calc(40% - (26rem / 2));
+  font-size: 250px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #F8F8F8;
+  z-index: -1;
+}
+
 /* ||@ GYSO TOUR / Page-12469 ——————————————————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-12469 .main-image {
@@ -535,8 +577,46 @@
   border-width: 0;
 }
 
+/* ||@ KLEBSTOFF-EMPFEHLUNGEN / Page-15972 —————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-15972 .klebstoff-card {
+  position: relative;
+  width: 100%;
+  height: 280px;
+}
+
+#page-15972 .klebstoff-card img {
+  width: 100%;
+}
+
+#page-15972 .klebstoff-card .klebstoff-title {
+  position: absolute;
+  bottom: .5rem;
+  left: 3rem;
+}
+
+#page-15972 .klebstoff-card .klebstoff-title h2, #page-15972 .klebstoff-card .klebstoff-title h6 {
+  color: #FFFFFF;
+}
+
 /* ||@ TESTSEITE / Page-77777 ——————————————————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-77777 .payment-method {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-77777 .payment-method-img {
+  width: 260px;
+  height: 120px;
+  margin-right: 1.5rem;
+  background-color: #464646;
+}
+
 /* ||@ TESTSEITE-ELEMENTE / Page-elemente ——————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-elemente {

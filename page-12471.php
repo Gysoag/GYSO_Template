@@ -13,18 +13,24 @@
 </section>
 -->
 
-<!-- || Titel und Beschreibung -->
+<!-- || Lieferservice Image -->
 <section class="section-block">
-    <h1 class="mt-30">Lieferservice</h1> 
-    <h6 class="mt-5">Der rasche und kundengerechte Lieferservice ist uns sehr wichtig.</h6>
+    <img src="./kundenupload/content-management/img/black.jpg" width="100%" height="500px">
+</section>
+
+<!-- || Titel und Beschreibung -->
+<section class="section-block section-text-center mt-50">
+    <h1>Lieferservice</h1> 
+    <h6>Der rasche und kundengerechte Lieferservice ist uns sehr wichtig.</h6>
+    <hr class="hr-light mt-30 mb-30">
 </section>
 
 <!-- || Lieferservice -->
-<section class="section-block mt-30">
+<section class="section-block mt-50">
     <div class="opc-row" data-op-align-items="center">
         <!-- Start Bild -->
         <div class="opc-col" data-op-col="12-6-6">
-            <img class="img-right" src="./kundenupload/content-management/img/gray.jpg" width="100%" height="450px">
+            <img class="img-right" src="./kundenupload/content-management/img/lieferwagen.png" width="100%" height="450px">
         </div>
         <!-- Ende Bild -->
         <!-- Start Versandarten -->
@@ -76,14 +82,41 @@
 </section>
 
 <!-- Start Sonderfälle -->
-<section class="section-block mt-30">
-<h4>In folgenden Sonderfälle kann sich die Lieferzeit verzögern</h4>
-<ul>
-  <li>Güter welche aufgrund von Gewicht, Sperrigkeit oder Inhaltsstoffe per Camion (Fracht) transportiert werden müssen.</li>
-  <li>Bestellungen mit konfektionierter Ware: Zuschnitt und Abfüllungen (Service-Center).</li>
-  <li>Bestellungen mit erhöhtem Abklärungsbedarf.</li>
-</ul>
-<p>
+<section class="section-block mt-100">
+    <div class="section-text-center">
+        <h1>In folgenden Sonderfälle kann sich die Lieferzeit verzögern</h1>
+        <h6>Lorem ipsum dolor sit amet, consetetur</h6> 
+    </div>
+
+    <div class="opc-row mt-50">
+
+    <div class="opc-col" data-op-col="12-4-4">
+        <div class="card-layout">
+            <div class="text">1</div>
+            <h3>Gefahrengut</h3>
+            <p>Güter welche aufgrund von Gewicht, Sperrigkeit oder Inhaltsstoffe per Camion (Fracht) transportiert werden müssen.</p>
+        </div>
+    </div>
+
+    <div class="opc-col" data-op-col="12-4-4">
+        <div class="card-layout">
+            <div class="text">2</div>
+            <h3>Zuschnitt und Abfüllungen</h3>
+            <p>Bestellungen mit konfektionierter Ware: Zuschnitt und Abfüllungen (Service-Center).</p>
+        </div>
+    </div>
+
+    <div class="opc-col" data-op-col="12-4-4">
+        <div class="card-layout">
+            <div class="text">3</div>
+            <h3>Abklärungsbedarf</h3>
+            <p>Bestellungen mit erhöhtem Abklärungsbedarf.</p>
+        </div>
+    </div>
+
+</div>
+
+<p class="mt-30 section-text-center">
     Der rasche und kundengerechte Lieferservice ist uns sehr wichtig. Melden Sie Ihre individuellen Lieferwünsche bei unserem Verkauf Innendienst und wir setzen alles daran 
     diese zu erfüllen.
 </p>

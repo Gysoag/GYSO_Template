@@ -5,27 +5,20 @@
 <!-- ||@ Content Labortechnik / HTML -->
 
 
-<!-- || Schneidcenter Image -->
-<section class="section-block container-width-100-l"></section>
-
-<!-- || Titel und Beschreibung -->
+<!-- || Labortechnik Video -->
 <section class="section-block">
-    <h1 class="mt-30">Labortechnik </h1>  
-    <h6>Hauseigenes Labor</h6>
-    <p class="mt-15">
-        In unserem modernen Labor werden viele unserer Produkte auf Funktionalität und technische Eigenschaften geprüft und
-        ausgewertet. Die Testergebnisse fliessen direkt in die Produkte ein damit die hohen Qualität Standards der GYSO-Produkte stets gewährleistet sind
-    </p>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/ky1OiBzJ9NA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
-
-<!-- || Video -->
-<section class="section-block mt-50">
-    <div class="test">
-        <iframe width="100%" height="700"
-            src="https://www.youtube.com/embed/ky1OiBzJ9NA" frameborder="0" allowfullscreen>
-        </iframe>
-    </div>    
+<!-- || Titel und Beschreibung -->
+<section class="section-block section-text-center mt-50">
+    <h1 class="mt-30">Labortechnik</h1>  
+    <h6>Hauseigenes Labor</h6>
+    <hr class="hr-light mt-30 mb-30">
+    <p class="mt-15">
+        In unserem modernen Labor werden viele unserer Produkte auf Funktionalität und technische Eigenschaften geprüft und ausgewertet. 
+        Die Testergebnisse fliessen direkt in die Produkte ein damit die hohen Qualität Standards der GYSO-Produkte stets gewährleistet sind.
+    </p>
 </section>
 
 
