@@ -252,61 +252,15 @@ $Main-green-30: #009774b0;
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-12468 {
 
-    .main-image {
-        width: 100%;
-        height: 450px;
+    .payment-method { 
+        display: flex;
+        justify-content:center; 
     }
-
-    .column {
-        float: left;
-        width: 33.33%;
-        padding: 0 0.5rem 0.5rem 0;
-        height: 100px;
-        max-width: 200px;
-        min-width: 175px;
-    }
-
-    /* Clear floats after the columns */
-    .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
-
-    .zahlungsart-img {
-        width: 100%;
-        height: auto;
-        min-height: 90px;
-    }
-
-
-    // Large devices (desktops, less than 1200px)
-    @media only screen and (max-width: 1199.98px) {
-        .column {
-            width: 50%;
-            
-        }
-
-        .opc-col-display {
-            display:none;
-        }
-
-        .opc-col {
-            width: 100%;
-        }
-
-      }
-
-    // Medium devices (tablets, less than 992px)
-    @media only screen and (max-width: 991.98px) {
-
-    }
-
-    // Small devices (landscape phones, less than 768px)
-    @media only screen and (max-width: 767.98px) {
-        .main-image {
-            height: 300px;
-        }
+    .payment-method-img {   
+        width:260px;
+        height: 120px;
+        margin-right: 1.5rem;
+        background-color: $Dark-gray;
     }
 
 }
@@ -434,7 +388,7 @@ input:checked {
         font-size: 250px;
         font-weight: 900;
         font-family: Arial, Helvetica, sans-serif;
-        color: $Very-light-gray;
+        color: #F1F1F1;
         z-index: -1;
     }
 }
@@ -464,6 +418,114 @@ input:checked {
             height: 300px;
         }
     }
+
+}
+
+/* ||@ WARENRÜCKGABE / Page-16121 ——————————————————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-16121 {
+
+    .list-retouren {
+
+        li {
+            padding-left: 3rem;
+            margin-bottom: 1.5rem;
+
+            &::marker {
+                font-weight: bolder;
+            }
+        }
+    }
+
+    // General
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  // Layout
+  .row {
+    display:flex;
+    .col {
+      flex:1;
+      &:last-child {
+        margin-left: 0;
+      }
+    }
+  }
+  
+  /* Accordion styles */
+  .tabs {
+    overflow: hidden;
+  }
+  .tab {
+    width: 100%;
+    color: $Main-black;
+    overflow: hidden;
+    &-label {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 1rem 1rem 0;
+      font-size: 1.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      /* Icon */
+      &:hover {
+          /**/
+      }
+      &::after {
+          content: '';
+          right: 1.5rem;
+          top: calc(50% - 1rem);
+          width: 2rem;
+          height: 2rem;
+          display: block;
+          background-image: url(../kundenupload/content-management/img/arrow.svg);
+          background-position: center;
+          background-size: 100%;
+          background-repeat: no-repeat;
+          -webkit-transition: all .2s ease-in-out;
+          -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+      }
+    }
+    &-content {
+      max-height: 0;
+      color: $Main-black;
+      transition: all .0;
+      border-bottom: 1px solid #E5E5E5;
+    }
+  
+    &-close {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1em;
+      font-size: 0.75em;
+      background: $Mid-gray;
+      cursor: pointer;
+      &:hover {
+        background: darken($Mid-gray, 10%);
+      }
+    }
+  }
+  
+  // :checked
+  input:checked {
+    + .tab-label {
+      /*background: $Main-green;*/
+          /*color: #009775;*/
+      &::after {
+        transform: rotate(180deg);
+        transition: all .3s;
+      }
+    }
+    ~ .tab-content {
+      max-height: 100vh;
+      padding: 1rem 1rem 2rem 0;
+    }
+  }
+
 
 }
 
@@ -515,23 +577,52 @@ input:checked {
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-15972 {
 
-    .klebstoff-card {
-        position: relative;
-        width: 100%;
-        height: 280px;
-        
-        img {
-            width: 100%;
-        }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 15px;
+        max-width: 100%;
+        // margin: 0 auto;
+        // box-sizing: border-box;
 
-        .klebstoff-title {
-            position: absolute;
-            bottom: .5rem;
-            left: 3rem;
-            
-            h2, h6  {
-                color: $Main-white;
+        .gallery-item {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            cursor: pointer;
+            overflow: hidden;
+
+            a {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
             }
+
+            img {
+                position: relative;       
+                width: 100%;
+                height: 100%;
+                object-fit: none;
+                padding: 0;
+                background-position: right;
+                // opacity: .5;
+            }
+
+            .gallery-item-caption {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                padding-left: 3rem;
+                padding-bottom: 3rem;
+
+                h2, h6 {
+                    color: $Main-white;
+                }
+                
+            }
+
         }
     }
 
@@ -541,16 +632,7 @@ input:checked {
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-77777 {
 
-    .payment-method { 
-        display: flex;
-        justify-content:center; 
-    }
-    .payment-method-img {   
-        width:260px;
-        height: 120px;
-        margin-right: 1.5rem;
-        background-color: $Dark-gray;
-    }
+
 
 }
 
@@ -661,7 +743,56 @@ input:checked {
         }
     }
 
-/* || 33 ————————————————————————————————————————————————————————————————————————————————————————— */
+/* || Gallery ——————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 15px;
+        max-width: 100%;
+        // margin: 0 auto;
+        // box-sizing: border-box;
+
+        .gallery-item {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            // background: red;
+            cursor: pointer;
+            overflow: hidden;
+
+            a {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            img {
+                position: relative;       
+                width: 100%;
+                height: 100%;
+                object-fit: none;
+                padding: 0;
+                background-position: right;
+                // opacity: .5;
+            }
+
+            .gallery-item-caption {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                padding-left: 3rem;
+                padding-bottom: 3rem;
+
+                h2, h6 {
+                    color: $Main-white;
+                }
+                
+            }
+
+        }
+    }
 
 
 }

@@ -146,6 +146,51 @@
 
 </section>
 
+<!-- ||  -->
+<!-- ||  -->
+<section class="section-block mb-100">
+    <!-- || Überschrift -->
+    <h1 class="mb-50">Image Gallery</h1>
+
+    <div class="gallery">
+
+        <!-- Item 1 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</section>
+
 
 <!-- || ENDE HTML -->
 

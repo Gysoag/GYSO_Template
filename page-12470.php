@@ -7,7 +7,7 @@
 
 <!-- || Schneidcenter Video -->
 <section class="section-block">
-        <iframe width="100%" height="500" src="https://www.youtube.com/embed/le7paguIkjw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/le7paguIkjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
 <!-- || Titel und Beschreibung -->

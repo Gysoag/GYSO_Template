@@ -22,65 +22,153 @@
 
 <!-- || Klebstoff-Empfehlungen -->
 <section class="section-block mt-50">
-    <!-- || Drei Spalten, 33% - 33% - 33% -->
-    <div class="opc-row">
-        <div class="opc-col" data-op-col="12-4-4">
-            <div class="klebstoff-card">
-                <img src="./kundenupload/content-management/img/klebstoff.png">
-                <div class="klebstoff-title">
-                    <h2>Norit Gipsfaserplatten</h2>
-                    <h6>Klebstoff-Empfehlungen</h6>
-                </div>
-            </div>
-        </div>
-        <div class="opc-col" data-op-col="12-4-4">
-            <div class="klebstoff-card">
-            <img src="./kundenupload/content-management/img/klebstoff.png">
-                <div class="klebstoff-title">
-                    <h2>Norit Gipsfaserplatten</h2>
-                    <h6>Klebstoff-Empfehlungen</h6>
-                </div>
-            </div>
-        </div>
-        <div class="opc-col" data-op-col="12-4-4">
-            <div class="klebstoff-card">
-                <img src="./kundenupload/content-management/img/klebstoff.png">
-                <div class="klebstoff-title">
-                    <h2>Norit Gipsfaserplatten</h2>
-                    <h6>Klebstoff-Empfehlungen</h6>
-                </div>
-            </div>
-        </div>
+    <!-- ||@TODO Filter Funktion implementieren -->
+    <div class="mb-15" style="text-align: center;">
+        <!-- || Buttons Small -->
+        <button class="opc-button" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: #009775; color: white; border: 1px solid #e4e4e4;">Metall</button>
+        <!-- || Buttons Small -->
+        <button class="opc-button" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4;">Holz</button>
+        <!-- || Buttons Small -->
+        <button class="opc-button" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4;">Beton</button>
+        <!-- || Buttons Small -->
+        <button class="opc-button" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4;">Glas</button>
+        <!-- || Buttons Small -->
+        <button class="opc-button" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4;">Plastik</button>
     </div>
-        <!-- || Drei Spalten, 33% - 33% - 33% -->
-        <div class="opc-row mt-15">
-        <div class="opc-col" data-op-col="12-4-4">
-            <div class="klebstoff-card">
-                <img src="./kundenupload/content-management/img/klebstoff.png">
-                <div class="klebstoff-title">
-                    <h2>Norit Gipsfaserplatten</h2>
-                    <h6>Klebstoff-Empfehlungen</h6>
-                </div>
+    <div class="gallery">
+
+        <!-- Item 1 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
             </div>
         </div>
-        <div class="opc-col" data-op-col="12-4-4">
-            <div class="klebstoff-card">
-            <img src="./kundenupload/content-management/img/klebstoff.png">
-                <div class="klebstoff-title">
-                    <h2>Norit Gipsfaserplatten</h2>
-                    <h6>Klebstoff-Empfehlungen</h6>
-                </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
             </div>
         </div>
-        <div class="opc-col" data-op-col="12-4-4">
-            <div class="klebstoff-card">
-                <img src="./kundenupload/content-management/img/klebstoff.png">
-                <div class="klebstoff-title">
-                    <h2>Norit Gipsfaserplatten</h2>
-                    <h6>Klebstoff-Empfehlungen</h6>
-                </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
             </div>
         </div>
+
+        <!-- Item 4 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
+            </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
+            </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
+            </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
+            </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
+            </div>
+        </div>
+
+        <!-- Item 9 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
+            </div>
+        </div>
+
+        <!-- Item 10 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
+            </div>
+        </div>
+
+        <!-- Item 11 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
+            </div>
+        </div>
+
+        <!-- Item 12 -->
+        <div class="gallery-item">
+            <!-- Image -->
+            <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
+            <a href="www.gyso.ch"></a>
+            <div class="gallery-item-caption">
+                <h2>Norit Gipsfaserplatten</h2>
+                <h6>Klebstoff-Empfehlungen</h6>
+            </div>
+        </div>
+
     </div>
 </section>
 

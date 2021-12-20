@@ -6,12 +6,6 @@
 <!-- || START HTML -->
 <!-- ||@ Content Lieferservice / HTML -->
 
-<!-- || Hauptbild -->
-<!--
-<section class="section-block">
-    <img class="main-image" src="./kundenupload/content-management/img/Lieferservice.jpg" alt="">
-</section>
--->
 
 <!-- || Lieferservice Image -->
 <section class="section-block">
