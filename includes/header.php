@@ -240,25 +240,25 @@
                         <ul class="navigation-level-2">
 
                                 <li class=" ">
-            <a href="/de/dienstleistungen/verkaufsladen/">Verkaufsladen</a>
+            <a href="http://localhost/GYSO_Template/page-12468.php">Verkaufsladen</a>
             </li>
             <li class=" ">
-            <a href="/de/dienstleistungen/schneidcenter/">Schneidcenter</a>
+            <a href="http://localhost/GYSO_Template/page-12470.php">Schneidcenter</a>
             </li>
             <li class=" ">
-            <a href="/de/dienstleistungen/labortechnik/">Labortechnik</a>
+            <a href="http://localhost/GYSO_Template/page-16053.php">Labortechnik</a>
             </li>
             <li class=" ">
-            <a href="/de/dienstleistungen/lieferservice/">Lieferservice</a>
+            <a href="http://localhost/GYSO_Template/page-12471.php">Lieferservice</a>
             </li>
             <li class=" ">
-            <a href="/de/dienstleistungen/gyso-tour/">GYSO Tour</a>
+            <a href="http://localhost/GYSO_Template/page-12469.php">GYSO Tour</a>
             </li>
             <li class=" ">
-            <a href="/de/dienstleistungen/klebstoff-empfehlungen/">Klebstoff-Empfehlungen</a>
+            <a href="http://localhost/GYSO_Template/page-15972.php">Klebstoff-Empfehlungen</a>
             </li>
             <li class=" ">
-            <a href="/de/dienstleistungen/warenrueckgabe_retouren/">Warenrückgabe/Retouren</a>
+            <a href="http://localhost/GYSO_Template/page-16121.php">Warenrückgabe/Retouren</a>
             </li>
 
 
@@ -348,7 +348,7 @@
             <a href="/de/mediathek/publikationen/kataloge/">Kataloge</a>
             </li>
             <li class=" ">
-            <a href="/de/mediathek/publikationen/klebstoff-empfehlungen/">Klebstoff-Empfehlungen</a>
+            <a href="http://localhost/GYSO_Template/page-15972.php">Klebstoff-Empfehlungen</a>
             </li>
                 </ul>
             </li>

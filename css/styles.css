@@ -95,8 +95,9 @@
 #page-12468 li, #page-12470 li, #page-16053 li, #page-12471 li, #page-12469 li, #page-15972 li, #page-16121 li, #page-12679 li, #page-12680 li, #page-15973 li,
 #page-12683 li, #page-12686 li, #page-16056 li, #page-12687 li, #page-13601 li, #page-12474 li, #page-12478 li, #page-12476 li, #page-12477 li, #page-12762 li,
 #page-15853 li, #page-15854 li, #page-16998 li, #page-15856 li, #page-77777 li, #page-elemente li {
+  font-size: 1.6rem;
   font-weight: 500;
-  line-height: 2.1rem;
+  line-height: 2.4rem;
   color: #1D1D1D;
 }
 
@@ -718,6 +719,53 @@
 
 /* ||@ TESTSEITE / Page-77777 ——————————————————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-77777 .auto-grid {
+  --auto-grid-min-size: 22rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(var(--auto-grid-min-size), 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+}
+
+#page-77777 .customer-logo {
+  z-index: 0;
+  position: relative;
+  height: 20rem;
+  text-align: center;
+  font-size: 1.2rem;
+  background: #FFF;
+  color: #1D1D1D;
+  -webkit-box-shadow: 0 0 0 1px #e2e9ed;
+          box-shadow: 0 0 0 1px #e2e9ed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: z-index 0s 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+  transition: z-index 0s 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0.2s ease;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+#page-77777 .customer-logo img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: none;
+  object-fit: none;
+}
+
+#page-77777 .customer-logo:hover {
+  z-index: 1;
+  -webkit-box-shadow: 0 8px 50px rgba(0, 0, 0, 0.096);
+          box-shadow: 0 8px 50px rgba(0, 0, 0, 0.096);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: z-index 0s 0s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+  transition: z-index 0s 0s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+  border: none;
+}
+
 /* ||@ TESTSEITE-ELEMENTE / Page-elemente ——————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-elemente {
