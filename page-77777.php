@@ -26,17 +26,105 @@
 <!-- || Grid System / Handelspartner -->
 <section class="section-block mt-50">
     <div class="auto-grid">
-        <div class="customer-logo"><img src="./kundenupload/content-management/img/bostik.png"></div>
-        <div class="customer-logo"><img src="./kundenupload/content-management/img/bostik.png"></div>
-        <div class="customer-logo"><img src="./kundenupload/content-management/img/bostik.png"></div>
-        <div class="customer-logo"><img src="./kundenupload/content-management/img/bostik.png"></div>
-        <div class="customer-logo"><img src="./kundenupload/content-management/img/bostik.png"></div>
-        <div class="customer-logo"><img src="./kundenupload/content-management/img/bostik.png"></div>
-        <div class="customer-logo"><img src="./kundenupload/content-management/img/bostik.png"></div>
-        <div class="customer-logo"><img src="./kundenupload/content-management/img/bostik.png"></div>
-        <div class="customer-logo"><img src="./kundenupload/content-management/img/bostik.png"></div>
-        <div class="customer-logo"><img src="./kundenupload/content-management/img/bostik.png"></div>
-        <div class="customer-logo"><img src="./kundenupload/content-management/img/bostik.png"></div>
+        <!-- Item Start-->
+        <div class="customer-logo">
+            <img src="./kundenupload/content-management/img/bostik.png">
+            <a href="https://www.bostik.com/germany/de/"></a>
+            <div class="customer-logo-content">
+                <h6>Bostik AG</h6>
+            </div>
+        </div>
+        <!-- Item Ende-->
+        <!-- Item Start-->
+        <div class="customer-logo">
+            <img src="./kundenupload/content-management/img/bostik.png">
+            <a href="https://www.bostik.com/germany/de/"></a>
+            <div class="customer-logo-content">
+                <h6>Bostik AG</h6>
+            </div>
+        </div>
+        <!-- Item Ende-->
+        <!-- Item Start-->
+        <div class="customer-logo">
+            <img src="./kundenupload/content-management/img/bostik.png">
+            <a href="https://www.bostik.com/germany/de/"></a>
+            <div class="customer-logo-content">
+                <h6>Bostik AG</h6>
+            </div>
+        </div>
+        <!-- Item Ende-->
+        <!-- Item Start-->
+        <div class="customer-logo">
+            <img src="./kundenupload/content-management/img/bostik.png">
+            <a href="https://www.bostik.com/germany/de/"></a>
+            <div class="customer-logo-content">
+                <h6>Bostik AG</h6>
+            </div>
+        </div>
+        <!-- Item Ende-->
+                <!-- Item Start-->
+                <div class="customer-logo">
+            <img src="./kundenupload/content-management/img/bostik.png">
+            <a href="https://www.bostik.com/germany/de/"></a>
+            <div class="customer-logo-content">
+                <h6>Bostik AG</h6>
+            </div>
+        </div>
+        <!-- Item Ende-->
+        <!-- Item Start-->
+        <div class="customer-logo">
+            <img src="./kundenupload/content-management/img/bostik.png">
+            <a href="https://www.bostik.com/germany/de/"></a>
+            <div class="customer-logo-content">
+                <h6>Bostik AG</h6>
+            </div>
+        </div>
+        <!-- Item Ende-->
+                <!-- Item Start-->
+                <div class="customer-logo">
+            <img src="./kundenupload/content-management/img/bostik.png">
+            <a href="https://www.bostik.com/germany/de/"></a>
+            <div class="customer-logo-content">
+                <h6>Bostik AG</h6>
+            </div>
+        </div>
+        <!-- Item Ende-->
+        <!-- Item Start-->
+        <div class="customer-logo">
+            <img src="./kundenupload/content-management/img/bostik.png">
+            <a href="https://www.bostik.com/germany/de/"></a>
+            <div class="customer-logo-content">
+                <h6>Bostik AG</h6>
+            </div>
+        </div>
+        <!-- Item Ende-->
+                <!-- Item Start-->
+                <div class="customer-logo">
+            <img src="./kundenupload/content-management/img/bostik.png">
+            <a href="https://www.bostik.com/germany/de/"></a>
+            <div class="customer-logo-content">
+                <h6>Bostik AG</h6>
+            </div>
+        </div>
+        <!-- Item Ende-->
+        <!-- Item Start-->
+        <div class="customer-logo">
+            <img src="./kundenupload/content-management/img/bostik.png">
+            <a href="https://www.bostik.com/germany/de/"></a>
+            <div class="customer-logo-content">
+                <h6>Bostik AG</h6>
+            </div>
+        </div>
+        <!-- Item Ende-->
+                <!-- Item Start-->
+                <div class="customer-logo">
+            <img src="./kundenupload/content-management/img/bostik.png">
+            <a href="https://www.bostik.com/germany/de/"></a>
+            <div class="customer-logo-content">
+                <h6>Bostik AG</h6>
+            </div>
+        </div>
+        <!-- Item Ende-->
     </div>
 </section>
 
