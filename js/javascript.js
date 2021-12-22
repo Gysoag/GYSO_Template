@@ -10,7 +10,7 @@
 
 /* ||@ Accordion Funktion ————————————————————————————————————————————————————————————————————————————————— */
 /* || START ——————————————————————————————————————————————————————————————————————————————————————————————— */
-$(document).ready(function() {
+
 
 const items = document.querySelectorAll(".accordion button");
 
@@ -123,4 +123,3 @@ for (var i = 0; i < btns.length; i++) {
     $(aId + ' .panel-collapse.in').collapse('hide');
   }
 
-});
