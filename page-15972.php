@@ -21,24 +21,26 @@
 </section>
 
 <!-- || Klebstoff-Empfehlungen -->
-<section class="section-block mt-50">
+<section id="myBtnContainer" class="section-block mt-50">
     <!-- ||@TODO Filter Funktion implementieren -->
-    <div class="mb-15" style="text-align: center;">
+    <div  class="mb-15" style="text-align: center;">
         <!-- || Buttons Small -->
-        <button class="opc-button" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: #009775; color: white; border: 1px solid #e4e4e4;">Metall</button>
+        <button class="opc-button btn active" onclick="filterSelection('all')" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: #009775; color: white; border: 1px solid #e4e4e4; margin-bottom: .5rem;">Alle</button>
         <!-- || Buttons Small -->
-        <button class="opc-button" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4;">Holz</button>
+        <button class="opc-button btn" onclick="filterSelection('metall')" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4; margin-bottom: .5rem;">Metall</button>
         <!-- || Buttons Small -->
-        <button class="opc-button" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4;">Beton</button>
+        <button class="opc-button btn" onclick="filterSelection('holz')" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4; margin-bottom: .5rem;">Holz</button>
         <!-- || Buttons Small -->
-        <button class="opc-button" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4;">Glas</button>
+        <button class="opc-button btn" onclick="filterSelection('beton')" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4; margin-bottom: .5rem;">Beton</button>
         <!-- || Buttons Small -->
-        <button class="opc-button" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4;">Plastik</button>
+        <button class="opc-button btn" onclick="filterSelection('glas')" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4; margin-bottom: .5rem;">Glas</button>
+        <!-- || Buttons Small -->
+        <button class="opc-button btn" onclick="filterSelection('plastik')" data-op-style="secondary" data-op-size="small" style="width: 120px; background-color: white; border: 1px solid #e4e4e4; margin-bottom: .5rem;">Plastik</button>
     </div>
     <div class="gallery">
 
         <!-- Item 1 -->
-        <div class="gallery-item">
+        <div class="gallery-item metall">
             <!-- Image -->
             <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
             <a href="www.gyso.ch"></a>
@@ -49,7 +51,7 @@
         </div>
 
         <!-- Item 2 -->
-        <div class="gallery-item">
+        <div class="gallery-item metall">
             <!-- Image -->
             <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
             <a href="www.gyso.ch"></a>
@@ -60,7 +62,7 @@
         </div>
 
         <!-- Item 3 -->
-        <div class="gallery-item">
+        <div class="gallery-item holz metall">
             <!-- Image -->
             <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
             <a href="www.gyso.ch"></a>
@@ -71,7 +73,7 @@
         </div>
 
         <!-- Item 4 -->
-        <div class="gallery-item">
+        <div class="gallery-item holz metall">
             <!-- Image -->
             <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
             <a href="www.gyso.ch"></a>
@@ -82,7 +84,7 @@
         </div>
 
         <!-- Item 5 -->
-        <div class="gallery-item">
+        <div class="gallery-item beton holz">
             <!-- Image -->
             <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
             <a href="www.gyso.ch"></a>
@@ -93,7 +95,7 @@
         </div>
 
         <!-- Item 6 -->
-        <div class="gallery-item">
+        <div class="gallery-item beton holz">
             <!-- Image -->
             <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
             <a href="www.gyso.ch"></a>
@@ -104,7 +106,7 @@
         </div>
 
         <!-- Item 7 -->
-        <div class="gallery-item">
+        <div class="gallery-item glas beton holz">
             <!-- Image -->
             <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
             <a href="www.gyso.ch"></a>
@@ -115,7 +117,7 @@
         </div>
 
         <!-- Item 8 -->
-        <div class="gallery-item">
+        <div class="gallery-item glas beton">
             <!-- Image -->
             <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
             <a href="www.gyso.ch"></a>
@@ -126,7 +128,7 @@
         </div>
 
         <!-- Item 9 -->
-        <div class="gallery-item">
+        <div class="gallery-item plastik glas">
             <!-- Image -->
             <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
             <a href="www.gyso.ch"></a>
@@ -137,7 +139,7 @@
         </div>
 
         <!-- Item 10 -->
-        <div class="gallery-item">
+        <div class="gallery-item plastik glas">
             <!-- Image -->
             <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
             <a href="www.gyso.ch"></a>
@@ -148,7 +150,7 @@
         </div>
 
         <!-- Item 11 -->
-        <div class="gallery-item">
+        <div class="gallery-item plastik glas">
             <!-- Image -->
             <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
             <a href="www.gyso.ch"></a>
@@ -159,7 +161,7 @@
         </div>
 
         <!-- Item 12 -->
-        <div class="gallery-item">
+        <div class="gallery-item plastik">
             <!-- Image -->
             <img src="./kundenupload/content-management/img/klebstoff.png" alt="">
             <a href="www.gyso.ch"></a>

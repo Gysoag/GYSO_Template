@@ -23,7 +23,7 @@
     <div class="opc-row" data-op-align-items="center">
         <!-- Start Bild -->
         <div class="opc-col" data-op-col="12-6-6">
-            <img class="img-right" src="./kundenupload/content-management/img/black.jpg" width="100%" height="450px">
+            <img class="img-right" src="./kundenupload/content-management/img/webshop.png" width="100%" height="450px">
         </div>
         <!-- Ende Bild -->
         <!-- Start Text -->
@@ -53,7 +53,7 @@
         <!-- Ende Text -->
         <!-- Start Bild -->
         <div class="opc-col" data-op-col="12-6-6">
-            <img class="img-right" src="./kundenupload/content-management/img/black.jpg" width="100%" height="450px">
+            <img class="img-right" src="./kundenupload/content-management/img/innendienst.png" width="100%" height="450px">
         </div>
         <!-- Ende Bild -->
     </div>
@@ -64,7 +64,7 @@
     <div class="opc-row" data-op-align-items="center">
         <!-- Start Bild -->
         <div class="opc-col" data-op-col="12-6-6">
-            <img class="img-right" src="./kundenupload/content-management/img/black.jpg" width="100%" height="450px">
+            <img class="img-right" src="./kundenupload/content-management/img/aussendienst.png" width="100%" height="450px">
         </div>
         <!-- Ende Bild -->
         <!-- Start Text -->
@@ -83,7 +83,7 @@
 </section>
 
 <!-- || Rücknahmebedingungen  -->
-<section class="section-block mt-50">
+<section class="section-block mt-100">
     <h1>Rücknahmebedingungen & Bearbeitungsgebühr (Abzüge)</h1> 
     <p>
         Produkte, welche bei Bestellung ab Lager verfügbar waren (Standardsortiment) können in der Regel unter Berücksichtigung der Rücknahmebedingungen zurück genommen werden. 
@@ -133,6 +133,28 @@
             </div>
            
         </div>
+</section>
+
+<!-- || Transportschaden - Wie gehen Sie vor?  -->
+<section class="section-block mt-100">
+    <h1>Transportschaden - Wie gehen Sie vor?</h1> 
+    <p>Trotz guter Verpackung und jeglicher Bemühungen unseren Kunden einwandfreie Ware zu liefern, kommt es in seltenen Fällen zu Schäden beim Transport.</p>
+
+    <ul>
+        <li>Prüfen Sie deshalb immer gleich bei der Annahme ob die Lieferung allfällige Beschädigungen aufweist. <br>Öffnen Sie äusserlich beschädigte Pakete und überprüfen Sie ob der Inhalt beschädigt wurde.</li>
+    </ul>
+
+    <ul>
+        <li>Vermerken Sie beim Transportdienstleister (Die Post oder Camion-Transport Wil) den Transportschaden und melden Sie uns dies im Anschluss</li>
+    </ul>
+
+    <p>Wir kümmern uns um eine rasche und unkomplizierte Nachlieferung.</p>
+
+    <p>Bei Fragen steht Ihnen unser Verkauf Innendienst gerne zur Verfügung.</p>
+
+
+    
+        
 </section>
 
 
