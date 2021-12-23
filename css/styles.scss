@@ -7,58 +7,98 @@
 ** ||   = Erklärung
 */
 
-
 /* ||@ HIDE SIDE NAV + CONTENT 100% ———————————————————————————————————————————————————————————————————————————— */
 /* || Blendet die Seitennavigation aus und der Content wird auf 100% breite erhöht ————————————————————————————— */
-#page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973, 
-#page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
-#page-15853, #page-15854, #page-16998, #page-15856 {
-    .section-inner-aside {
-        display:none;
-    }
-    .section-inner-content {
-        width: 100%;
-    }
+#page-12468,
+#page-12470,
+#page-16053,
+#page-12471,
+#page-12469,
+#page-15972,
+#page-16121,
+#page-12679,
+#page-12680,
+#page-15973,
+#page-12683,
+#page-12686,
+#page-16056,
+#page-12687,
+#page-13601,
+#page-12474,
+#page-12478,
+#page-12476,
+#page-12477,
+#page-12762,
+#page-15853,
+#page-15854,
+#page-16998,
+#page-15856 {
+  .section-inner-aside {
+    display: none;
+  }
+  .section-inner-content {
+    width: 100%;
+  }
 }
-
 
 /* ||@ COLOR STYLES ———————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Globale Farben definieren ———————————————————————————————————————————————————————————————————————————————— */
-$Main-green: #009775;       // Standard grün
-$Secondary-green: #00775C;
-$Alt-blue: #62A1D8;         // Neuheiten
-$Alt-pink: #D8628E;         // Aktionen
-$Very-light-gray: #F8F8F8;
+$Main-green: #009775; // Standard grün
+$Secondary-green: #00775c;
+$Alt-blue: #62a1d8; // Neuheiten
+$Alt-pink: #d8628e; // Aktionen
+$Very-light-gray: #f8f8f8;
 $Light-gray: #707070;
 $Mid-gray: #575757;
 $Dark-gray: #464646;
-$Main-black: #1D1D1D;       // Standard schwarz
-$Main-white: #FFFFFF;
+$Main-black: #1d1d1d; // Standard schwarz
+$Main-white: #ffffff;
 $Main-green-30: #009774b0;
-
 
 /* ||@ TYPOGRAPHY ——————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Globable Schriftstyle definieren —————————————————————————————————————————————————————————————————————————— */
 
-#page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973, 
-#page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
-#page-15853, #page-15854, #page-16998, #page-15856, #page-77777, #page-elemente {
+#page-12468,
+#page-12470,
+#page-16053,
+#page-12471,
+#page-12469,
+#page-15972,
+#page-16121,
+#page-12679,
+#page-12680,
+#page-15973,
+#page-12683,
+#page-12686,
+#page-16056,
+#page-12687,
+#page-13601,
+#page-12474,
+#page-12478,
+#page-12476,
+#page-12477,
+#page-12762,
+#page-15853,
+#page-15854,
+#page-16998,
+#page-15856,
+#page-77777,
+#page-elemente {
+  h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 3.2rem * 1.5;
+    margin-bottom: 0.5rem;
+    color: $Main-black;
+  }
 
-    h1 {
-        font-size: 3.2rem;
-        font-weight: 600; 
-        line-height: 3.2rem * 1.5;
-        margin-bottom: 0.5rem;
-        color: $Main-black;
-    }
-
-    h2 {
-        font-size: 2.4rem;
-        font-weight: 600;
-        line-height: 2.4rem * 1.5;
-        color: $Main-black;
-    }
-/*
+  h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.4rem * 1.5;
+    color: $Main-black;
+  }
+  /*
     h3 {
         font-size: 2.0rem;
         font-weight: 600;
@@ -66,13 +106,13 @@ $Main-green-30: #009774b0;
         color: $Main-black;
     }
 */
-    h4 {
-        font-size: 1.8rem;
-        font-weight: 600;
-        line-height: 1.8rem * 1.5;
-        color: $Main-black;
-    }
-/*
+  h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.8rem * 1.5;
+    color: $Main-black;
+  }
+  /*
     h5 {
         font-size: 1.6rem;
         font-weight: 600;
@@ -80,28 +120,28 @@ $Main-green-30: #009774b0;
         color: $Main-black;
     }
 */
-    h6 {
-        font-size: 2.0rem;
-        font-weight: 300;
-        line-height: 2.0rem * 1.5;
-        margin-bottom: 1.5rem;
-        color: $Main-black;
-    }
+  h6 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2rem * 1.5;
+    margin-bottom: 1.5rem;
+    color: $Main-black;
+  }
 
-    li {
-        font-size: 1.6rem;
-        font-weight: 500;
-        line-height: 1.6rem * 1.5;
-        color: $Main-black;
-    }
+  li {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem * 1.5;
+    color: $Main-black;
+  }
 
-    p {
-        font-size: 1.6rem;
-        font-weight: 500;
-        line-height: 1.6rem * 1.5;
-        color: $Main-black;
-    }
-/*
+  p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem * 1.5;
+    color: $Main-black;
+  }
+  /*
     a {
         font-size: 1.6rem;
         font-weight: 600;
@@ -113,349 +153,252 @@ $Main-green-30: #009774b0;
 
 // || Small devices (landscape phones, less than 768px)
 @media only screen and (max-width: 767.98px) {
-    #page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973, 
-    #page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
-    #page-15853, #page-15854, #page-16998, #page-15856 {
-        h1 {
-            font-size: 2.4rem;
-            font-weight: 600; 
-            line-height: 2.4rem * 1.5;
-            margin-bottom: 0.5rem;
-            color: $Main-black;
-        }
-    
-        h2 {
-            font-size: 2.0rem;
-            font-weight: 600;
-            line-height: 2.0rem * 1.5;
-            color: $Main-black;
-        }
-
-        h6 {
-            font-size: 1.8rem;
-            font-weight: 300;
-            line-height: 1.8rem * 1.5;
-            margin-bottom: 1.5rem;
-            color: $Main-black;
-        }
+  #page-12468,
+  #page-12470,
+  #page-16053,
+  #page-12471,
+  #page-12469,
+  #page-15972,
+  #page-16121,
+  #page-12679,
+  #page-12680,
+  #page-15973,
+  #page-12683,
+  #page-12686,
+  #page-16056,
+  #page-12687,
+  #page-13601,
+  #page-12474,
+  #page-12478,
+  #page-12476,
+  #page-12477,
+  #page-12762,
+  #page-15853,
+  #page-15854,
+  #page-16998,
+  #page-15856 {
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      line-height: 2.4rem * 1.5;
+      margin-bottom: 0.5rem;
+      color: $Main-black;
     }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 2rem * 1.5;
+      color: $Main-black;
+    }
+
+    h6 {
+      font-size: 1.8rem;
+      font-weight: 300;
+      line-height: 1.8rem * 1.5;
+      margin-bottom: 1.5rem;
+      color: $Main-black;
+    }
+  }
 }
-
-
 
 /* ||@ SPACING —————————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Globable Abstände definieren —————————————————————————————————————————————————————————————————————————————— */
-#page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973, 
-#page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
-#page-15853, #page-15854, #page-16998, #page-15856, #page-77777, #page-elemente {
-/* || padding-top */
-.pt-5 {
+#page-12468,
+#page-12470,
+#page-16053,
+#page-12471,
+#page-12469,
+#page-15972,
+#page-16121,
+#page-12679,
+#page-12680,
+#page-15973,
+#page-12683,
+#page-12686,
+#page-16056,
+#page-12687,
+#page-13601,
+#page-12474,
+#page-12478,
+#page-12476,
+#page-12477,
+#page-12762,
+#page-15853,
+#page-15854,
+#page-16998,
+#page-15856,
+#page-77777,
+#page-elemente {
+  /* || padding-top */
+  .pt-5 {
     padding-top: 0.5rem;
-}
-.pt-10 {
+  }
+  .pt-10 {
     padding-top: 1rem;
-}
-.pt-15 {
+  }
+  .pt-15 {
     padding-top: 1.5rem;
-}
-.pt-30 {
+  }
+  .pt-30 {
     padding-top: 3rem;
-}
-.pt-50 {
+  }
+  .pt-50 {
     padding-top: 5rem;
-}
-.pt-100 {
+  }
+  .pt-100 {
     padding-top: 10rem;
-}
-/* || padding-bottom */
-.pb-5 {
+  }
+  /* || padding-bottom */
+  .pb-5 {
     padding-bottom: 0.5rem;
-}
-.pb-10 {
+  }
+  .pb-10 {
     padding-bottom: 1rem;
-}
-.pb-15 {
+  }
+  .pb-15 {
     padding-bottom: 1.5rem;
-}
-.pb-30 {
+  }
+  .pb-30 {
     padding-bottom: 3rem;
-}
-.pb-50 {
+  }
+  .pb-50 {
     padding-bottom: 5rem;
-}
-.pb-100 {
+  }
+  .pb-100 {
     padding-bottom: 10rem;
-}
-/* || margin-top */
-.mt-5 {
+  }
+  /* || margin-top */
+  .mt-5 {
     margin-top: 0.5rem;
-}
-.mt-10 {
+  }
+  .mt-10 {
     margin-top: 1rem;
-}
-.mt-15 {
+  }
+  .mt-15 {
     margin-top: 1.5rem;
-}
-.mt-30 {
+  }
+  .mt-30 {
     margin-top: 3rem;
-}
-.mt-50 {
+  }
+  .mt-50 {
     margin-top: 5rem;
-}
-.mt-100 {
+  }
+  .mt-100 {
     margin-top: 10rem;
-}
-/* || margin-bottom */
-.mb-5 {
+  }
+  /* || margin-bottom */
+  .mb-5 {
     margin-bottom: 0.5rem;
-}
-.mb-10 {
+  }
+  .mb-10 {
     margin-bottom: 1rem;
-}
-.mb-15 {
+  }
+  .mb-15 {
     margin-bottom: 1.5rem;
-}
-.mb-30 {
+  }
+  .mb-30 {
     margin-bottom: 3rem;
-}
-.mb-50 {
+  }
+  .mb-50 {
     margin-bottom: 5rem;
-}
-.mb-100 {
+  }
+  .mb-100 {
     margin-bottom: 10rem;
+  }
 }
-}
-
 
 /* ||@ COMPONENTS ——————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Gloable Komponenten definieren ———————————————————————————————————————————————————————————————————————————— */
-#page-12468, #page-12470, #page-16053, #page-12471, #page-12469, #page-15972, #page-16121, #page-12679, #page-12680, #page-15973, 
-#page-12683, #page-12686, #page-16056, #page-12687, #page-13601, #page-12474, #page-12478, #page-12476, #page-12477, #page-12762,
-#page-15853, #page-15854, #page-16998, #page-15856, #page-77777, #page-elemente {
+#page-12468,
+#page-12470,
+#page-16053,
+#page-12471,
+#page-12469,
+#page-15972,
+#page-16121,
+#page-12679,
+#page-12680,
+#page-15973,
+#page-12683,
+#page-12686,
+#page-16056,
+#page-12687,
+#page-13601,
+#page-12474,
+#page-12478,
+#page-12476,
+#page-12477,
+#page-12762,
+#page-15853,
+#page-15854,
+#page-16998,
+#page-15856,
+#page-77777,
+#page-elemente {
+  .section-text-center {
+    text-align: center;
+  }
 
-    .section-text-center {
-        text-align: center;
-    }
+  b {
+    font-size: larger;
+    font-weight: bolder;
+  }
 
-    b {
-        font-size: larger;
-        font-weight: bolder;
-    }
-
-    .hr-light {
-        width: 33%;
-        border: 1px solid $Very-light-gray
-    }
+  .hr-light {
+    width: 33%;
+    border: 1px solid $Very-light-gray;
+  }
 }
-
 
 /* ||@ VERKAUFSLADEN / Page-12468 ——————————————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-12468 {
-
-    .payment-method { 
-        display: flex;
-        justify-content:center; 
-    }
-    .payment-method-img {   
-        width:260px;
-        height: 120px;
-        margin-right: 1.5rem;
-        background-color: $Dark-gray;
-    }
-
+  .payment-method {
+    display: flex;
+    justify-content: center;
+  }
+  .payment-method-img {
+    width: 260px;
+    height: 120px;
+    margin-right: 1.5rem;
+    background-color: $Dark-gray;
+  }
 }
 
 /* ||@ LIEFERSERVICE / Page-12471 ——————————————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-12471 {
+  .main-image {
+    width: 100%;
+    height: 450px;
+  }
 
+  // Small devices (landscape phones, less than 768px)
+  @media only screen and (max-width: 767.98px) {
     .main-image {
-        width: 100%;
-        height: 450px;
-    }
-
-    // Small devices (landscape phones, less than 768px)
-    @media only screen and (max-width: 767.98px) {
-        .main-image {
-            height: 300px;
-        }
-    }
-
-
-// General
-input {
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
-}
-
-// Layout
-.row {
-  display:flex;
-  .col {
-    flex:1;
-    &:last-child {
-      margin-left: 0;
+      height: 300px;
     }
   }
-}
 
-/* Accordion styles */
-.tabs {
-  overflow: hidden;
-}
-.tab {
-  width: 100%;
-  color: $Main-black;
-  overflow: hidden;
-  &-label {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 1rem 1rem 0;
-    font-size: 1.8rem;
-    font-weight: 600;
-    cursor: pointer;
-    /* Icon */
-    &:hover {
-        /**/
-    }
-    &::after {
-        content: '';
-        right: 1.5rem;
-        top: calc(50% - 1rem);
-        width: 2rem;
-        height: 2rem;
-        display: block;
-        background-image: url(../kundenupload/content-management/img/arrow.svg);
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        -webkit-transition: all .2s ease-in-out;
-        -o-transition: all .2s ease-in-out;
-        transition: all .2s ease-in-out;
-    }
-  }
-  &-content {
-    max-height: 0;
-    color: $Main-black;
-    transition: all .0;
-    border-bottom: 1px solid #E5E5E5;
+  // General
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
   }
 
-  &-close {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em;
-    font-size: 0.75em;
-    background: $Mid-gray;
-    cursor: pointer;
-    &:hover {
-      background: darken($Mid-gray, 10%);
-    }
-  }
-}
-
-// :checked
-input:checked {
-  + .tab-label {
-    /*background: $Main-green;*/
-        /*color: #009775;*/
-    &::after {
-      transform: rotate(180deg);
-      transition: all .3s;
-    }
-  }
-  ~ .tab-content {
-    max-height: 100vh;
-    padding: 1rem 1rem 2rem 0;
-  }
-}
-
-
-.card-layout {
-    background-color: $Main-white;
-    padding: 3rem;
-    box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
-    position: relative;
-    min-height: 200px;
-    z-index: 1;
-    overflow: hidden;
-
-    .text {
-        position: absolute;
-        right: -52px;
-        top: calc(40% - (26rem / 2));
-        font-size: 250px;
-        font-weight: 900;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #F1F1F1;
-        z-index: -1;
-    }
-}
-    
-}
-
-/* ||@ GYSO TOUR / Page-12469 ——————————————————————————————————————————————————————————————————————————————————— */
-/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
-#page-12469 {
-
-    .main-image {
-        width: 100%;
-        height: 450px;
-    }
-
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 100%;
-        border-radius: 5px;
-        padding: 1.5rem;
-      }
-
-    // Small devices (landscape phones, less than 768px)
-    @media only screen and (max-width: 767.98px) {
-        .main-image {
-            height: 300px;
-        }
-    }
-
-}
-
-/* ||@ WARENRÜCKGABE / Page-16121 ——————————————————————————————————————————————————————————————————————————————————— */
-/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
-#page-16121 {
-
-    .list-retouren {
-
-        li {
-            padding-left: 3rem;
-            margin-bottom: 1.5rem;
-
-            &::marker {
-                font-weight: bolder;
-            }
-        }
-    }
-
-    // General
-    input {
-        position: absolute;
-        opacity: 0;
-        z-index: -1;
-    }
-  
   // Layout
   .row {
-    display:flex;
+    display: flex;
     .col {
-      flex:1;
+      flex: 1;
       &:last-child {
         margin-left: 0;
       }
     }
   }
-  
+
   /* Accordion styles */
   .tabs {
     overflow: hidden;
@@ -473,31 +416,31 @@ input:checked {
       cursor: pointer;
       /* Icon */
       &:hover {
-          /**/
+        /**/
       }
       &::after {
-          content: '';
-          right: 1.5rem;
-          top: calc(50% - 1rem);
-          width: 2rem;
-          height: 2rem;
-          display: block;
-          background-image: url(../kundenupload/content-management/img/arrow.svg);
-          background-position: center;
-          background-size: 100%;
-          background-repeat: no-repeat;
-          -webkit-transition: all .2s ease-in-out;
-          -o-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
+        content: '';
+        right: 1.5rem;
+        top: calc(50% - 1rem);
+        width: 2rem;
+        height: 2rem;
+        display: block;
+        background-image: url(../kundenupload/content-management/img/arrow.svg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
       }
     }
     &-content {
       max-height: 0;
       color: $Main-black;
-      transition: all .0;
-      border-bottom: 1px solid #E5E5E5;
+      transition: all 0;
+      border-bottom: 1px solid #e5e5e5;
     }
-  
+
     &-close {
       display: flex;
       justify-content: flex-end;
@@ -510,15 +453,15 @@ input:checked {
       }
     }
   }
-  
+
   // :checked
   input:checked {
     + .tab-label {
       /*background: $Main-green;*/
-          /*color: #009775;*/
+      /*color: #009775;*/
       &::after {
         transform: rotate(180deg);
-        transition: all .3s;
+        transition: all 0.3s;
       }
     }
     ~ .tab-content {
@@ -527,430 +470,563 @@ input:checked {
     }
   }
 
+  .card-layout {
+    background-color: $Main-white;
+    padding: 3rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    min-height: 200px;
+    z-index: 1;
+    overflow: hidden;
 
+    .text {
+      position: absolute;
+      right: -52px;
+      top: calc(40% - (26rem / 2));
+      font-size: 250px;
+      font-weight: 900;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #f1f1f1;
+      z-index: -1;
+    }
+  }
+}
+
+/* ||@ GYSO TOUR / Page-12469 ——————————————————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-12469 {
+  .main-image {
+    width: 100%;
+    height: 450px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    padding: 1.5rem;
+  }
+
+  // Small devices (landscape phones, less than 768px)
+  @media only screen and (max-width: 767.98px) {
+    .main-image {
+      height: 300px;
+    }
+  }
+}
+
+/* ||@ WARENRÜCKGABE / Page-16121 ——————————————————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-16121 {
+  .list-retouren {
+    li {
+      padding-left: 3rem;
+      margin-bottom: 1.5rem;
+
+      &::marker {
+        font-weight: bolder;
+      }
+    }
+  }
+
+  // General
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  // Layout
+  .row {
+    display: flex;
+    .col {
+      flex: 1;
+      &:last-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  /* Accordion styles */
+  .tabs {
+    overflow: hidden;
+  }
+  .tab {
+    width: 100%;
+    color: $Main-black;
+    overflow: hidden;
+    &-label {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 1rem 1rem 0;
+      font-size: 1.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      /* Icon */
+      &:hover {
+        /**/
+      }
+      &::after {
+        content: '';
+        right: 1.5rem;
+        top: calc(50% - 1rem);
+        width: 2rem;
+        height: 2rem;
+        display: block;
+        background-image: url(../kundenupload/content-management/img/arrow.svg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+    &-content {
+      max-height: 0;
+      color: $Main-black;
+      transition: all 0;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    &-close {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1em;
+      font-size: 0.75em;
+      background: $Mid-gray;
+      cursor: pointer;
+      &:hover {
+        background: darken($Mid-gray, 10%);
+      }
+    }
+  }
+
+  // :checked
+  input:checked {
+    + .tab-label {
+      /*background: $Main-green;*/
+      /*color: #009775;*/
+      &::after {
+        transform: rotate(180deg);
+        transition: all 0.3s;
+      }
+    }
+    ~ .tab-content {
+      max-height: 100vh;
+      padding: 1rem 1rem 2rem 0;
+    }
+  }
 }
 
 /* ||@ SCHNEIDCENTER + LABORTECHNIK / Page-12470, Page-16053 ———————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
-#page-12470, #page-16053 {
+#page-12470,
+#page-16053 {
+  /* || Container With Left full —————————————————————————————————————————————————————————————————————————————— */
+  .container-width-100-l {
+    width: 100%;
+    height: 50rem;
+    background-color: $Very-light-gray;
+    position: relative;
 
-    /* || Container With Left full —————————————————————————————————————————————————————————————————————————————— */
-    .container-width-100-l {
-        width: 100%;
-        height: 50rem;
-        background-color: $Very-light-gray;
-        position: relative;
+    &::before {
+      content: '';
+      background-color: inherit;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 100%;
+      width: 99999px;
+    }
+  }
 
-        &::before {
-            content: "";
-            background-color: inherit;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 100%;
-            width: 99999px;
-        }
+  .test {
+    width: 100%;
+    position: relative;
+
+    &::after {
+      content: '';
+      background-color: $Main-green;
+      position: absolute;
+      top: 0;
+      height: 50%;
+      bottom: 0;
+      left: 100%;
+      width: 99999px;
     }
 
-    .test {
-        width: 100%;
-        position: relative;
-
-        &::after {
-            content: "";
-            background-color: $Main-green;
-            position: absolute;
-            top: 0;
-            height: 50%;
-            bottom: 0;
-            left: 100%;
-            width: 99999px;
-        }
-
-        iframe {
-            border-width: 0;
-        }
-
+    iframe {
+      border-width: 0;
     }
+  }
 }
 
 /* ||@ KLEBSTOFF-EMPFEHLUNGEN / Page-15972 —————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-15972 {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 15px;
+    max-width: 100%;
+    // margin: 0 auto;
+    // box-sizing: border-box;
 
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        gap: 15px;
-        max-width: 100%;
-        // margin: 0 auto;
-        // box-sizing: border-box;
-
-        /* The "show" class is added to the filtered elements */
-        .show {
-            display: block !important;
-        }
-
-        .gallery-item {
-            position: relative;
-            width: 100%;
-            height: 300px;
-            cursor: pointer;
-            overflow: hidden;
-            display: none; /* Hidden by default */
-
-            
-
-            a {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-            }
-
-            img {
-                position: relative;       
-                width: 100%;
-                height: 100%;
-                object-fit: none;
-                padding: 0;
-                background-position: right;
-                // opacity: .5;
-            }
-
-            .gallery-item-caption {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                padding-left: 3rem;
-                padding-bottom: 3rem;
-
-                h2, h6 {
-                    color: $Main-white;
-                }
-                
-            }
-
-        }
+    /* The "show" class is added to the filtered elements */
+    .show {
+      display: block !important;
     }
 
+    .gallery-item {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      cursor: pointer;
+      overflow: hidden;
+      display: none; /* Hidden by default */
 
+      a {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
 
+      img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: none;
+        padding: 0;
+        background-position: right;
+        // opacity: .5;
+      }
+
+      .gallery-item-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding-left: 3rem;
+        padding-bottom: 3rem;
+
+        h2,
+        h6 {
+          color: $Main-white;
+        }
+      }
+    }
+  }
 }
 
 /* ||@ TESTSEITE / Page-77777 ——————————————————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-77777 {
+  .auto-grid {
+    --auto-grid-min-size: 22rem;
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(var(--auto-grid-min-size), 1fr)
+    );
+    //grid-gap: 1.5rem;
+  }
 
-    .auto-grid {
-        --auto-grid-min-size: 22rem;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-        //grid-gap: 1.5rem;
+  .customer-logo {
+    z-index: 0;
+    position: relative;
+    height: 20rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background: #fff;
+    color: $Main-black;
+    box-shadow: 0 0 0 1px #e2e9ed;
+    box-sizing: border-box;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0.2s ease;
+    overflow: hidden;
+
+    a {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      -o-object-fit: none;
+      object-fit: none;
+    }
+
+    &:hover {
+      z-index: 1;
+      box-shadow: 0 8px 50px rgba(0, 0, 0, 0.096);
+      transform: scale(1.05);
+      transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
+      border: none;
+
+      .customer-logo-content {
+        h6 {
+          text-align: center;
+          line-height: 18rem;
+        }
       }
 
-      .customer-logo {
-        z-index: 0;
-        position: relative;
-        height: 20rem;
-        text-align: center;
-        font-size: 1.2rem;
-        background: #FFF;
-        color: $Main-black;
-        box-shadow: 0 0 0 1px #e2e9ed;
-        box-sizing: border-box; 
-        transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0.2s ease;
+      img {
+        display: none;
         overflow: hidden;
+      }
+    }
+  }
 
-        a {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
+  .panel-default > .panel-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #e4e5e7;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 
-        img {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            -o-object-fit: none;
-            object-fit: none;
-          }
+  .panel-default > .panel-heading a {
+    display: block;
+    padding: 10px 15px;
+  }
 
-        &:hover {
-            z-index: 1;
-            box-shadow: 0 8px 50px rgba(0, 0, 0, 0.096);
-            transform: scale(1.05);
-            transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
-            border: none;
+  .panel-default > .panel-heading a:after {
+    content: '';
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform 0.25s linear;
+    -webkit-transition: -webkit-transform 0.25s linear;
+  }
 
-            .customer-logo-content {
-                
-                h6 {
-                    text-align: center;
-                    line-height: 18rem;
-                }
-            }
+  .panel-default > .panel-heading a[aria-expanded='true'] {
+    background-color: #eee;
+  }
 
-            img {
-                display: none;
-                overflow: hidden;
-            }
-        }
-      }
+  .panel-default > .panel-heading a[aria-expanded='true']:after {
+    content: '\2212';
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
 
+  .panel-default > .panel-heading a[aria-expanded='false']:after {
+    content: '\002b';
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
 
-      .panel-default>.panel-heading {
-        color: #333;
-        background-color: #fff;
-        border-color: #e4e5e7;
-        padding: 0;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-      
-      .panel-default>.panel-heading a {
-        display: block;
-        padding: 10px 15px;
-      }
-      
-      .panel-default>.panel-heading a:after {
-        content: "";
-        position: relative;
-        top: 1px;
-        display: inline-block;
-        font-family: 'Glyphicons Halflings';
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        float: right;
-        transition: transform .25s linear;
-        -webkit-transition: -webkit-transform .25s linear;
-      }
-      
-      .panel-default>.panel-heading a[aria-expanded="true"] {
-        background-color: #eee;
-      }
-      
-      .panel-default>.panel-heading a[aria-expanded="true"]:after {
-        content: "\2212";
-        -webkit-transform: rotate(180deg);
-        transform: rotate(180deg);
-      }
-      
-      .panel-default>.panel-heading a[aria-expanded="false"]:after {
-        content: "\002b";
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg);
-      }
-      
-      .accordion-option {
-        width: 100%;
-        float: left;
-        clear: both;
-        margin: 15px 0;
-      }
-      
-      .accordion-option .title {
-        font-size: 20px;
-        font-weight: bold;
-        float: left;
-        padding: 0;
-        margin: 0;
-      }
-      
-      .accordion-option .toggle-accordion {
-        float: right;
-        font-size: 16px;
-        color: #6a6c6f;
-      }
-      
-      .accordion-option .toggle-accordion:before {
-        content: "Expand All";
-      }
-      
-      .accordion-option .toggle-accordion.active:before {
-        content: "Collapse All";
-      }
+  .accordion-option {
+    width: 100%;
+    float: left;
+    clear: both;
+    margin: 15px 0;
+  }
 
+  .accordion-option .title {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  .accordion-option .toggle-accordion {
+    float: right;
+    font-size: 16px;
+    color: #6a6c6f;
+  }
+
+  .accordion-option .toggle-accordion:before {
+    content: 'Expand All';
+  }
+
+  .accordion-option .toggle-accordion.active:before {
+    content: 'Collapse All';
+  }
 }
 
 /* ||@ TESTSEITE-ELEMENTE / Page-elemente ——————————————————————————————————————————————————————————————————————— */
 /* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
 #page-elemente {
+  .card-layout {
+    background-color: $Main-white;
+    padding: 3rem;
+    border: 1px solid #eee;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    min-height: 295px;
+    z-index: 1;
+    overflow: hidden;
 
-    .card-layout {
-        background-color: $Main-white;
-        padding: 3rem;
-        border: 1px solid #eee;
-        box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
-        position: relative;
-        min-height: 295px;
-        z-index: 1;
-        overflow: hidden;
+    .text {
+      position: absolute;
+      right: -52px;
+      top: calc(40% - (26rem / 2));
+      font-size: 300px;
+      font-weight: 900;
+      font-family: Arial, Helvetica, sans-serif;
+      color: $Main-green-30;
+      z-index: -1;
+    }
+  }
 
-        .text {
-            position: absolute;
-            right: -52px;
-            top: calc(40% - (26rem / 2));
-            font-size: 300px;
-            font-weight: 900;
-            font-family: Arial, Helvetica, sans-serif;
-            color: $Main-green-30;
-            z-index: -1;
-        }
+  /* || Container With 100% ————————————————————————————————————————————————————————————————————————————————————————— */
+  .container-width-100 {
+    width: 100%;
+    height: auto;
+    background-color: $Main-green;
+    position: relative;
+
+    &::before {
+      content: '';
+      background-color: inherit;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 100%;
+      width: 99999px;
     }
 
-/* || Container With 100% ————————————————————————————————————————————————————————————————————————————————————————— */
-    .container-width-100 {
+    &::after {
+      content: '';
+      background-color: inherit;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 100%;
+      width: 99999px;
+    }
+  }
+
+  /* || Container With Left full ————————————————————————————————————————————————————————————————————————————————————————— */
+  .container-width-100-l {
+    width: 100%;
+    height: auto;
+    background-color: $Main-green;
+    position: relative;
+
+    &::before {
+      content: '';
+      background-color: inherit;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 100%;
+      width: 99999px;
+    }
+  }
+
+  /* || Container With Right full ————————————————————————————————————————————————————————————————————————————————————————— */
+  .container-width-100-r {
+    width: 100%;
+    height: auto;
+    background-color: $Main-green;
+    position: relative;
+
+    &::after {
+      content: '';
+      background-color: inherit;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 100%;
+      width: 99999px;
+    }
+  }
+
+  /* || Container With 100% Text ————————————————————————————————————————————————————————————————————————————————————————— */
+  .text-for-cw100 {
+    text-align: center;
+    color: $Main-white;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+    h1 {
+      font-size: 6rem;
+      color: $Main-white;
+    }
+
+    p {
+      margin-top: 3rem;
+    }
+  }
+
+  /* || Gallery ——————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 15px;
+    max-width: 100%;
+    // margin: 0 auto;
+    // box-sizing: border-box;
+
+    .gallery-item {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      // background: red;
+      cursor: pointer;
+      overflow: hidden;
+
+      a {
+        position: absolute;
+        bottom: 0;
+        left: 0;
         width: 100%;
-        height: auto;
-        background-color: $Main-green;
+        height: 100%;
+      }
+
+      img {
         position: relative;
-
-        &::before {
-            content: "";
-            background-color: inherit;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 100%;
-            width: 99999px;
-        }
-
-        &::after {
-            content: "";
-            background-color: inherit;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 100%;
-            width: 99999px;
-        }
-    }
-
-/* || Container With Left full ————————————————————————————————————————————————————————————————————————————————————————— */
-    .container-width-100-l {
         width: 100%;
-        height: auto;
-        background-color: $Main-green;
-        position: relative;
+        height: 100%;
+        object-fit: none;
+        padding: 0;
+        background-position: right;
+        // opacity: .5;
+      }
 
-        &::before {
-            content: "";
-            background-color: inherit;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 100%;
-            width: 99999px;
+      .gallery-item-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding-left: 3rem;
+        padding-bottom: 3rem;
+
+        h2,
+        h6 {
+          color: $Main-white;
         }
+      }
     }
-
-/* || Container With Right full ————————————————————————————————————————————————————————————————————————————————————————— */
-    .container-width-100-r {
-        width: 100%;
-        height: auto;
-        background-color: $Main-green;
-        position: relative;
-
-        &::after {
-            content: "";
-            background-color: inherit;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 100%;
-            width: 99999px;
-        }
-    }
-
-/* || Container With 100% Text ————————————————————————————————————————————————————————————————————————————————————————— */
-    .text-for-cw100 {
-        text-align: center;
-        color: $Main-white;
-        padding-top: 10rem;
-        padding-bottom: 10rem;
-
-        h1 {        
-            font-size: 6rem;
-            color: $Main-white;
-        }
-
-        p {
-            margin-top: 3rem;
-        }
-    }
-
-/* || Gallery ——————————————————————————————————————————————————————————————————————————————————————————————————————————— */
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        gap: 15px;
-        max-width: 100%;
-        // margin: 0 auto;
-        // box-sizing: border-box;
-
-        .gallery-item {
-            position: relative;
-            width: 100%;
-            height: 300px;
-            // background: red;
-            cursor: pointer;
-            overflow: hidden;
-
-            a {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-            }
-
-            img {
-                position: relative;       
-                width: 100%;
-                height: 100%;
-                object-fit: none;
-                padding: 0;
-                background-position: right;
-                // opacity: .5;
-            }
-
-            .gallery-item-caption {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                padding-left: 3rem;
-                padding-bottom: 3rem;
-
-                h2, h6 {
-                    color: $Main-white;
-                }
-                
-            }
-
-        }
-    }
-
-
+  }
 }
 
-
-
-
 // Large devices (desktops, less than 1200px)
-@media only screen and (max-width: 1199.98px) {}
+@media only screen and (max-width: 1199.98px) {
+}
 
 // Medium devices (tablets, less than 992px)
-@media only screen and (max-width: 991.98px) {}
+@media only screen and (max-width: 991.98px) {
+}
 
 // X-Small devices (portrait phones, less than 576px)
-@media only screen and (max-width: 575.98px) {}
-
+@media only screen and (max-width: 575.98px) {
+}
